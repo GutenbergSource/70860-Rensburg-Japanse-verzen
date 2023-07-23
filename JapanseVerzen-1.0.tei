@@ -1,0 +1,2580 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN" [
+
+    <!ENTITY aecirc  CDATA "&#x00E6;&#x0302;"  --       1 -->
+    <!ENTITY apos    CDATA "&#x2019;"          --     521 -->
+    <!ENTITY lsquo   CDATA "&#x2018;"          --       1 -->
+    <!ENTITY mdash   CDATA "&#x2014;"          --     123 -->
+    <!ENTITY ndash   CDATA "&#x2013;"          --       3 -->
+
+]>
+<TEI.2 lang=nl>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Japanse verzen</title>
+<author key="Rensburg, Jacques Karel" ref="https://viaf.org/viaf/202386700/">Jacques Karel Rensburg (1870&ndash;1943)</author>
+<respStmt><resp lang=en>Transcription</resp> <name key="Hellingman, Jeroen">Jeroen Hellingman</name></respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>Project Gutenberg</publisher>
+<pubPlace>Urbana, Illinois, USA.</pubPlace>
+<idno type=OLN>#####</idno>
+<idno type=OLW>#####</idno>
+<idno type=OCLC>#####</idno>
+<idno type=LibThing>#####</idno>
+<idno type=PGclearance>20230311025255rensburg</idno>
+<idno type=PGDPProjectId>projectID640e4534bdfd3</idno>
+<idno type=PGSrc>70860-Rensburg-Japanse-verzen</idno>
+<idno type=epub-id>urn:uuid:5db90351-1ae0-4650-b05c-3c077c1c9c26</idno>
+<idno type=PGnum>70860</idno>
+<date>2023-05-25</date>
+<availability lang=nl>
+<p>&availability.nl;
+
+<p>Dit eBoek is geproduceerd door het on-line gedistribueerd correctieteam op <xref url="https://www.pgdp.net/">www.pgdp.net</xref>.
+
+</availability>
+</publicationStmt>
+<notesStmt>
+    <note type=Description>#####<!--Een korte beschrijving van dit document.--></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<author>Jacques Karel Rensburg</author>
+<title>Japanse verzen</title>
+<date>1903</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc lang=nl>
+    <p>Dit boek is weergegeven in oorspronkelijke schrijfwijze. Afgebroken woorden aan het einde van de regel zijn stilzwijgend hersteld. Kennelijke zetfouten in het origineel zijn verbeterd. Deze verbeteringen zijn aangegeven in de colofon aan het einde van dit boek.</p>
+
+    <p>De inhoudsopgave voor het tweede deel van dit boek is samengevoegd met die van het eerste deel. Hetzelfde is gedaan met de noten (<ref target=toelichtingen>Toelichtingen</ref>) aan het einde van beide delen. De noten zijn hierbij opnieuw doorlopend genummerd.</p>
+
+    <tagsDecl lang=xx>
+        <rendition selector=.small>font-size: small;</rendition>
+        <rendition selector=.large>font-size: large;</rendition>
+        <rendition selector=.vam>vertical-align: middle;</rendition>
+        <rendition selector=.center>text-align: center;</rendition>
+        <rendition selector=.tocLabel>text-align: center;</rendition>
+        <rendition selector=.tocChapter>font-size: large; text-align: center;</rendition>
+    </tagsDecl>
+</encodingDesc>
+<profileDesc>
+    <langUsage lang=nl>
+        <language id=nl>Nederlands</language>
+        <language id=en>Engels</language>
+        <language id=fr>Frans</language>
+        <language id=xx>Geen taalkundige inhoud</language>
+    </langUsage>
+    <textClass>
+        <keywords>
+            <list>
+                <item>#####</item>
+            </list>
+        </keywords>
+    </textClass>
+</profileDesc>
+<revisionDesc>
+    <list>
+        <item>2023-05-19 Begonnen.
+    </list>
+</revisionDesc>
+</teiHeader>
+<text rend="stylesheet(style/classic.css)">
+<front id=frontmatter>
+<div1 id=cover type=Cover>
+
+
+<p><figure id=cover-image rend="image(images/frontcover.jpg)">
+<figDesc>Oorspronkelijke voorkant.</figDesc>
+</figure>
+
+
+<pb>
+<div1 id=titlepage type=TitlePage>
+
+
+<p><figure id=titlepage-image rend="image(images/titlepage.png)">
+<figDesc>Oorspronkelijke titelpagina.</figDesc>
+</figure>
+
+
+
+<pb id=pb.i facs="f:001">
+<div1 id=french type=FrenchTitle>
+
+
+<p rend="center large">JAPANSE VERZEN.
+
+
+
+<pb id=pb.iii facs="f:003">
+<titlePage>
+<docTitle><titlePart><hi rend=sc>Japanse Verzen.</hi></titlePart></docTitle>
+
+<!-- [Illustration]
+
+I.
+
+FOEDZJI-NO-HANA.
+
+[Illustration] -->
+
+<docImprint>ROTTERDAM<corr>.</corr>&mdash;JOHAN PIETERSE.&mdash;1903.</docImprint>
+</titlePage>
+
+
+
+
+<pb id=pb7f n=7 facs="f:005">
+<div1 id=toc type=Contents>
+<head>INHOUD.</head>
+
+
+<p rend=tocLabel>I.
+
+<p rend=tocChapter>FOEDZJI-NO-HANA.
+
+<list type=tocList>
+<item><ab type=tocDivNum>I.</ab>        <ref target=v1.1>Proloog</ref>                                  <ab type=tocPageNum>1</ab>
+<item><ab type=tocDivNum>II.</ab>       <ref target=v1.2>Foedzji-No-Hana</ref>                          <ab type=tocPageNum>2</ab>
+<item><ab type=tocDivNum>III.</ab>      <ref target=v1.3>Serenade</ref>                                 <ab type=tocPageNum>3</ab>
+<item><ab type=tocDivNum>IV.</ab>       <ref target=v1.4>Geisha&apos;s</ref>                            <ab type=tocPageNum>4</ab>
+<item><ab type=tocDivNum>V.</ab>        <ref target=v1.5>Port-Arthur</ref>                              <ab type=tocPageNum>5</ab>
+<item><ab type=tocDivNum>VI.</ab>       <ref target=v1.6>De Rijzende Zon</ref>                          <ab type=tocPageNum>6</ab>
+<item><ab type=tocDivNum>VII.</ab>      <ref target=v1.7>Saluutschot</ref>                              <ab type=tocPageNum>7</ab>
+<item><ab type=tocDivNum>VIII.</ab>     <ref target=v1.8>De Draak van China</ref>                       <ab type=tocPageNum>8</ab>
+<item><ab type=tocDivNum>IX.</ab>       <ref target=v1.9>Volkeren-Morgen</ref>                          <ab type=tocPageNum>9</ab>
+<item><ab type=tocDivNum>X.</ab>        <ref target=v1.10>Pan-Mongolisme</ref>                          <ab type=tocPageNum>10</ab>
+<item><ab type=tocDivNum>XI.</ab>       <ref target=v1.11>De Internaatsionale</ref>                     <ab type=tocPageNum>11</ab>
+<item><ab type=tocDivNum>XII.</ab>      <ref target=v1.12>Flirt</ref>                                   <ab type=tocPageNum>12</ab>
+<item><ab type=tocDivNum>XIII.</ab>     <ref target=v1.13>Onheilsbode</ref>                             <ab type=tocPageNum>13</ab>
+<item><ab type=tocDivNum>XIV.</ab>      <ref target=v1.14>Atlantis</ref>                                <ab type=tocPageNum>14</ab>
+<item><ab type=tocDivNum>XV.</ab>       <ref target=v1.15>De Adelaar der Atlantiden</ref>               <ab type=tocPageNum>15</ab>
+<item><ab type=tocDivNum>XVI.</ab>      <ref target=v1.16>De Dochters van Atlantis</ref>                <ab type=tocPageNum>16</ab>
+<item><ab type=tocDivNum>XVII.</ab>     <ref target=v1.17>In oude tijden</ref>                          <ab type=tocPageNum>17</ab>
+<pb id=pb8f n=8 facs="f:006"><item><ab type=tocDivNum>XVIII.</ab>    <ref target=v1.18>De Grote Vloed</ref>                          <ab type=tocPageNum>18</ab>
+<item><ab type=tocDivNum>XIX.</ab>      <ref target=v1.19>&apos;t Verloren Eden</ref>                   <ab type=tocPageNum>19</ab>
+<item><ab type=tocDivNum>XX.</ab>       <ref target=v1.20>De Atlantise Oceaan</ref>                     <ab type=tocPageNum>20</ab>
+<item><ab type=tocDivNum>XXI.</ab>      <ref target=v1.21>Het Chrysanthen-Rijk</ref>                    <ab type=tocPageNum>21</ab>
+<item><ab type=tocDivNum>XXII.</ab>     <ref target=v1.22 lang=en>The flowers, that bloom in the spring</ref>   <ab type=tocPageNum>22</ab>
+<item><ab type=tocDivNum>XXIII.</ab>    <ref target=v1.23>Avondstond</ref>                              <ab type=tocPageNum>23</ab>
+<item><ab type=tocDivNum>XXIV.</ab>     <ref target=v1.24>De Mi Kado</ref>                              <ab type=tocPageNum>24</ab>
+<item><ab type=tocDivNum>XXV.</ab>      <ref target=v1.25>De Kogo</ref>                                 <ab type=tocPageNum>25</ab>
+<item><ab type=tocDivNum>XXVI.</ab>     <ref target=v1.26>Uit de Midden-Ewen</ref>                      <ab type=tocPageNum>26</ab>
+<item><ab type=tocDivNum>XXVII.</ab>    <ref target=v1.27>Het Sintoïsme</ref>                           <ab type=tocPageNum>27</ab>
+<item><ab type=tocDivNum>XXVIII.</ab>   <ref target=v1.28>Stervende Adel</ref>                          <ab type=tocPageNum>28</ab>
+<item><ab type=tocDivNum>XXIX.</ab>     <ref target=v1.29>De Vuurvloed</ref>                            <ab type=tocPageNum>29</ab>
+<item><ab type=tocDivNum>XXX.</ab>      <ref target=v1.30>De Val van Rome</ref>                         <ab type=tocPageNum>30</ab>
+<item><ab type=tocDivNum>XXXI.</ab>     <ref target=v1.31>De Val van Mekka</ref>                        <ab type=tocPageNum>31</ab>
+<item><ab type=tocDivNum>XXXII.</ab>    <ref target=v1.32>De Val van Peking</ref>                       <ab type=tocPageNum>32</ab>
+<item><ab type=tocDivNum>XXXIII.</ab>   <ref target=v1.33>De Franse Republiek</ref>                     <ab type=tocPageNum>33</ab>
+<item><ab type=tocDivNum>XXXIV.</ab>    <ref target=v1.34>Parijs</ref>                                  <ab type=tocPageNum>34</ab>
+<item><ab type=tocDivNum>XXXV.</ab>     <ref target=v1.35 lang=fr>Fin-de-Siècle</ref>                           <ab type=tocPageNum>35</ab>
+<item><ab type=tocDivNum>XXXVI.</ab>    <ref target=v1.36 lang=fr>Fin-d&apos;Eres</ref>                         <ab type=tocPageNum>36</ab>
+<item><ab type=tocDivNum>XXXVII.</ab>   <ref target=v1.37>Nouvelle Ere</ref>                            <ab type=tocPageNum>37</ab>
+</list>
+
+
+<pb id=pb47 n=47 facs="f:053">
+<!-- INHOUD. -->
+
+<p rend=tocLabel>II.
+
+<p rend=tocChapter>KIKOE-NO-HANA.
+
+<list type=tocList>
+<item><ab type=tocDivNum>I.</ab>        <ref target=v2.1>Wimpels van wirook</ref>                       <ab type=tocPageNum>49</ab>
+<item><ab type=tocDivNum>II.</ab>       <ref target=v2.2>Levenslust</ref>                               <ab type=tocPageNum>50</ab>
+<item><ab type=tocDivNum>III.</ab>      <ref target=v2.3>Rust</ref>                                     <ab type=tocPageNum>51</ab>
+<item><ab type=tocDivNum>IV.</ab>       <ref target=v2.4>Kerstmis-Stemming</ref>                        <ab type=tocPageNum>52</ab>
+<item><ab type=tocDivNum>V.</ab>        <ref target=v2.5>&apos;98&ndash;&apos;99</ref>                  <ab type=tocPageNum>53</ab>
+<item><ab type=tocDivNum>VI.</ab>       <ref target=v2.6>Mongoolse Stemming</ref>                       <ab type=tocPageNum>54</ab>
+<item><ab type=tocDivNum>VII.</ab>      <ref target=v2.7>Japanse Weelde</ref>                           <ab type=tocPageNum>55</ab>
+<item><ab type=tocDivNum>VIII.</ab>     <ref target=v2.8>Treurig, treurig</ref>                         <ab type=tocPageNum>56</ab>
+<item><ab type=tocDivNum>IX.</ab>       <ref target=v2.9>In Vogelvlucht</ref>                           <ab type=tocPageNum>57</ab>
+<item><ab type=tocDivNum>X.</ab>        <ref target=v2.10>Toekomstige Bouwstijl</ref>                   <ab type=tocPageNum>58</ab>
+<item><ab type=tocDivNum>XI.</ab>       <ref target=v2.11>Japanse Munt</ref>                            <ab type=tocPageNum>59</ab>
+<item><ab type=tocDivNum>XII.</ab>      <ref target=v2.12>Expanzi-Kunst</ref>                           <ab type=tocPageNum>60</ab>
+<item><ab type=tocDivNum>XIII.</ab>     <ref target=v2.13>Zijdeteelt</ref>                              <ab type=tocPageNum>61</ab>
+<item><ab type=tocDivNum>XIV.</ab>      <ref target=v2.14>Nacht</ref>                                   <ab type=tocPageNum>62</ab>
+<item><ab type=tocDivNum>XV.</ab>       <ref target=v2.15>Kamerscherm. Haroe (Lente)</ref>              <ab type=tocPageNum>63</ab>
+<item><ab type=tocDivNum>XVI.</ab>      <ref target=v2.16>Aki (Zomer)</ref>                             <ab type=tocPageNum>64</ab>
+<item><ab type=tocDivNum>XVII.</ab>     <ref target=v2.17>Natsoe (Herfst)</ref>                         <ab type=tocPageNum>65</ab>
+<pb id=pb48 n=48 facs="f:054"><item><ab type=tocDivNum>XVIII.</ab>    <ref target=v2.18>Hoeyoe (Winter)</ref>                         <ab type=tocPageNum>66</ab>
+<item><ab type=tocDivNum>XIX.</ab>      <ref target=v2.19>Straat bij avond</ref>                        <ab type=tocPageNum>67</ab>
+<item><ab type=tocDivNum>XX.</ab>       <ref target=v2.20>Strafplaats</ref>                             <ab type=tocPageNum>68</ab>
+<item><ab type=tocDivNum>XXI.</ab>      <ref target=v2.21>Bruiloft</ref>                                <ab type=tocPageNum>69</ab>
+<item><ab type=tocDivNum>XXII.</ab>     <ref target=v2.22>Watervogels</ref>                             <ab type=tocPageNum>70</ab>
+<item><ab type=tocDivNum>XXIII.</ab>    <ref target=v2.23>In den Tempel van Kamé-Ido</ref>              <ab type=tocPageNum>71</ab>
+<item><ab type=tocDivNum>XXIV.</ab>     <ref target=v2.24>Voor den Strijd</ref>                         <ab type=tocPageNum>72</ab>
+<item><ab type=tocDivNum>XXV.</ab>      <ref target=v2.25>Japans Toneel</ref>                           <ab type=tocPageNum>73</ab>
+<item><ab type=tocDivNum>XXVI.</ab>     <ref target=v2.26>Naar de post</ref>                            <ab type=tocPageNum>74</ab>
+<item><ab type=tocDivNum>XXVII.</ab>    <ref target=v2.27>Satsoema-Vazen</ref>                          <ab type=tocPageNum>75</ab>
+<item><ab type=tocDivNum>XXVIII.</ab>   <ref target=v2.28>Begrafenis</ref>                              <ab type=tocPageNum>76</ab>
+<item><ab type=tocDivNum>XXIX.</ab>     <ref target=v2.29>De Berg van Nikko</ref>                       <ab type=tocPageNum>77</ab>
+<item><ab type=tocDivNum>XXX.</ab>      <ref target=v2.30>Staten-Generaal</ref>                         <ab type=tocPageNum>78</ab>
+<item><ab type=tocDivNum>XXXI.</ab>     <ref target=v2.31>Wereld-Drang</ref>                            <ab type=tocPageNum>79</ab>
+<item><ab type=tocDivNum>XXXII.</ab>    <ref target=v2.32>Scheidens-Uur</ref>                           <ab type=tocPageNum>80</ab>
+<item><ab type=tocDivNum>XXXIII.</ab>   <ref target=v2.33>Licht</ref>                                   <ab type=tocPageNum>81</ab>
+<item><ab type=tocDivNum>XXXIV.</ab>    <ref target=v2.34>Rijk van de Zon</ref>                         <ab type=tocPageNum>82</ab>
+<item><ab type=tocDivNum>XXXV.</ab>     <ref target=v2.35>Betere Tijden</ref>                           <ab type=tocPageNum>83</ab>
+<item><ab type=tocDivNum>XXXVI.</ab>    <ref target=v2.36>Wedergeboorte</ref>                           <ab type=tocPageNum>84</ab>
+<item><ab type=tocDivNum>XXXVII.</ab>   <ref target=v2.37>Nirwana</ref>                                 <ab type=tocPageNum>85</ab>
+<item><ab type=tocDivNum>XXXVIII.</ab>  <ref target=v2.38>Het Oude Lied</ref>                           <ab type=tocPageNum>86</ab>
+<item><ab type=tocDivNum>XXXIX.</ab>    <ref target=v2.39>Sayonara!</ref>                               <ab type=tocPageNum>87</ab>
+</list>
+
+
+
+
+
+<pb id=pb1 n=1 facs="f:007">
+</front>
+<body>
+<div0 id=pt1 n=I type=Part rend="toc-head(FOEDZJI-NO-HANA.)">
+
+
+<div1 id=v1.1 n=I>
+<head type=super>FOEDZJI-NO-HANA.<note n=1 id=n1.1.1><p>Foedzji-No-Hana, de wistaria chinensis een blauwe, ook donkerblauw bloejende klimplant, di de Japanners langs latten en luifels neer laten hangen.
+
+<p>Door een noodlottig toeval kwam ik zeer lang in den waan, dat deze rose bloemen had en heb dit eerst kunnen wijzigen na de verschijning der verzen, waarin de foedzji voorkomt, in N. Gids, XXe Eew, enz.</note></head>
+
+<head type=label>I.</head>
+
+<head>PROLOOG VOOR ANNO 2558 (1898)
+<lb>DER
+<lb>Japanse Tijdrekening,
+<lb>Jaar 30<note n=2>Naast een tijdrekening in cyclen van 60 jaar, tans reeds de 76e, tellen de Japanners ook vanaf de stichting van hun Rijk door Dzjimmoe-Tenno en naar de regerings-tijdperken van elken Mi Kado afzonderlik.</note>
+<lb>VAN
+<lb>MOETSOE-HITO&apos;S<note n=3>Moetsoe-Hito, spreek uit Moets-Chto (met <hi>ch</hi> als in het duitse <hi>Knecht</hi>, <hi>Recht</hi>), naam van den tegenwoordigen Keizer, welke betekent Man des Vredes. Hij werd Mi Kado in 1867, maar kreeg eerst in 1868 werkelik de macht in handen.</note> MEI-DZJI.<note n=4>Mei-Dzji spreek uit Meej-Dzji, naam van zijn bestuurs-periode, di betekent Verlichte Regering.</note></head>
+
+
+<lg type=Poem>
+    <l>In Dzji-Pon-Koeé,<note n=5>Dzji-Pon-Koewé: Rijk waar de Dag begint, Rijk van de Rijzende Zon, Cipango, Japan. <hi>Ch</hi> spreek uit als in het Duitse <hi>Licht</hi>.</note> waar een eew&apos;ge brand
+    <l>Van heilig bloemvuur naar de Zon vervlied,
+    <l>Waar men in parasol en in chrysanth
+    <l>&apos;t Beeld van het Licht alom vervuldigd ziet,
+    <l>Kleurt alle maanden bloemtooj, daar dit land
+    <l>Haar trouw steeds niwe stuifmeel-wirook bied
+    <l>En de kalender word in kunstenaars hand
+    <l>Door kleur en dicht daar tot één bloemenlied.
+    <l>Nu zi &apos;k de Muze als een moesmé<note n=6>Moessoemé spreek uit moesmé, meisje.</note> mij
+    <l>Twaalf wajers als fana kojomi<note n=7>Fana kojomi: bloemenkalender.</note> reiken
+    <l>Met bloej van kunst, di naar den tijd er tiert,
+    <l>Moog z&apos;allen zo&apos;n omfleurde verzen-rij
+    <l>&apos;t Geplooj van wajers, twaalf in tal, ontstrijken,
+    <l>Die &apos;t Niwe Jaar met Niwe Kunst doorsiert.
+</lg>
+
+
+
+
+<pb id=pb2 n=2 facs="f:008">
+<div1 id=v1.2 n=II>
+<head type=label>II.</head>
+
+<head>Foedzji-No-Hana.</head>
+
+
+<lg><lg>
+    <l>Als een Japans poëet, di, ruim omwaad,
+    <l>Gebukt voor slank, blank vel van rijst-velijn,
+    <l>In helrood inkt-meer een penseelspits baad,
+    <l>Waarlangs in zeegroene en wolkrose schijn
+    <l>De zoom, een parelmoeren schelprand gaat,
+    <l>En waaraan stenen hondje, kneuterig-klein,
+    <l>Tot stoornis met een sprong te dreigen staat
+    <l>Om woest te spatten op &apos;t papier-satijn.<note n=1>Een inktkoker als hier besreven, ziet men veel als weelde-artikel.</note>
+</lg>
+
+<lg>
+    <l>Zo wil ik stil Japanse Verzen rijen
+    <l>Als zulk een dichter, di met zacht gestreel
+    <l>Woord-tekens, helrood, uitzwiert van &apos;t penseel,
+    <l>Zodat het blad vol trossen beelden hangt
+    <l>Gelijk lichtblauwe foedzji neder rankt<note n=2 sameAs=n1.1.1></note>
+    <l>En met zo&apos;n fleur van lente U vermeien.
+</lg></lg>
+
+
+
+
+<pb id=pb3 n=3 facs="f:009">
+<div1 id=v1.3 n=III>
+<head type=label>III.</head>
+
+<head>Serenade.</head>
+
+
+<lg>
+    <l>Als zanger, di voor liefste&apos;s woning beid,
+    <l>Het rechterbeen spitst vóór, de linkerhand
+    <l>Omslankt den samisen,<note n=1>Samisen of semsin, citer met lange hals en vierkant klankbord.</note> de rechter spant
+    <l>Toontonkeling van een lied, dat hem geleid,
+    <l>En schouwt wat wajertaal ze&apos;m tegenspreid:
+    <l>Of zij d&apos;afhoegi<note n=2>Afhoegi, wajer. Afhoengi in Tokio-dialekt.</note> achter &apos;t kapsel plant
+    <l>Als aureool en vleiziek naar één kant,
+    <l>&apos;t Gelaat en &apos;t zwart getoet der haren glijd,
+    <l>Of dat de zangstroom, die zijn monde-wel
+    <l>Als wirook uitstijgt, welke opwaarts duft,
+    <l>Als wolk van geur verjaagd word, weggepuft.
+    <l>Zoo lees ik, Muze, uit uw wajerspel
+    <l>Of ge&apos; u afkeurend heenwend van mijn kunst,
+    <l>Dan wel di toewuift met gebaar van gunst.
+</lg>
+
+
+
+
+<pb id=pb4 n=4 facs="f:010">
+<div1 id=v1.4 n=IV>
+<head type=label>IV.</head>
+
+<head>Geisha&apos;s.</head>
+
+
+<lg>
+    <l>Nu trippen één voor één mijn Verzen aan,
+    <l>Beheerst door samisen- en koto-klank,<note n=1>Koto, een soort liggende harp.</note>
+    <l>Een drom van geisha&apos;s,<note n=2 id=n1.4.2>Geisha, spreek uit geej-sja, zangeres en danseres.</note> met een wuft gewank
+    <l>Der haarvracht, waarheen sporten spelden staan
+    <l>En als tot steunsel schuins de oogen gaan.
+    <l>Ze schuifelen zoetjes: er vlied goudgesprank
+    <l>Van reigers om &apos;t blauw zij gewaad, wijl rank
+    <l>Ze&apos; aan één hand over &apos;t kapsel wajers slaan,
+    <l>Dan weer wijd-arms in d&apos;enge obi<note n=3>Obi, zijden gordel met breden strik op den rug.</note> hangen
+    <l>Aan rijen of d&apos;afhoegi voor &apos;t gezicht
+    <l>Als uit een mom met donkere iris lonken.
+    <l>Zo zi &apos;k mijn Verzen in figuren slangen,
+    <l>Wier zwaaj en dans juist naar de maat verzwicht
+    <l>En zwirig in gespitsten kleedval flonken.
+</lg>
+
+
+
+
+<pb id=pb5 n=5 facs="f:011">
+<div1 id=v1.5 n=V>
+<head type=label>V.</head>
+
+<head>Port-Arthur.</head>
+
+
+<lg><lg>
+    <l>Een fort op steil gebergt&apos; aan zee. Daar laajt
+    <l>Van vele standaards in drihoekig veld
+    <l>Het heilig geel van &apos;t Hemels Rijk: er zwelt
+    <l>Gekronk in van zijn Draak der Nacht. Daar zwaajt
+    <l>Wreedogig krijgsvolk &apos;t kromzwaard, zelf gepaajd
+    <l>Door dolle hoogmoed; zelf slechts is &apos;t gekweld
+    <l>Door vrees voor &apos;t Monster op den muur gesteld,
+    <l>Dat sepia-zwart de keizerskleur begraajt.
+</lg>
+
+<lg>
+    <l>Maar in het Oosten start in front aan front
+    <l>&apos;t Japanse leger; duizendvoudig schicht
+    <l>Zijn wapenglans&mdash;tot plots de stormtrom roert,
+    <l>Als in versnelde doods-mars, &apos;t Zonne-Rond<note>De oorlogsvlag van Japan is wit, tot in de hoeken bestraald door een hoogrode, zestien-stralige Zon en bezet met een rand van violet, de kleur der dynasti.</note>
+    <l>In blanke Vaan de bataljons van &apos;t Licht
+    <l>Met woesten oorlogs-galm ten aanval voert.
+</lg></lg>
+
+
+
+
+<pb id=pb6 n=6 facs="f:012">
+<div1 id=v1.6 n=VI>
+<head type=label>VI.</head>
+
+<head>De Rijzende Zon.</head>
+
+
+<lg>
+    <l>En opgesrikt uit ewen-ouden waan
+    <l>Door &apos;t vuur, dat altijd nader, wisser vlaagt,
+    <l>Zien de Chinezen ladders heffen, slaan
+    <l>Met haken in de muren, ider draagt
+    <l>Gebukte krijgers, di zich wild ruim baan
+    <l>Met kolven, sabels zwajen; waar men &apos;t waagt
+    <l>Hen nog met houwen, steken te weerstaan,
+    <l>Tot over &apos;t fort hun Zon steeds hoger daagt.
+    <l>En wi hen smekend geen erbarmen vind,
+    <l>Word neergebeukt of met een knal geveld
+    <l>En &apos;t lood haalt in wi nog te vluchten tracht,
+    <l>Tot over de gevall&apos;nen &apos;t Monster wind,
+    <l>Alsof het di nog in zijn klauwen knelt
+    <l>Tot prooj voor &apos;t overwonnen Rijk der Nacht.
+</lg>
+
+
+
+
+<pb id=pb7 n=7 facs="f:013">
+<div1 id=v1.7 n=VII>
+<head type=label>VII.</head>
+
+<head>Saluutschot.</head>
+
+
+<lg>
+    <l>Langs nachtblauw als met kruitgewolk bezwaard
+    <l>Spicht mast en ra op kruiserforten aan,
+    <l>Wier rompen in lichtgrijze pantsers staan
+    <l>Dik van de kiel, tot waar de wacht rond staart
+    <l>In &apos;t hoogst balkon. En van hun bruggen klaart&mdash;
+    <l>Wijl uit de pijpen dreigend vlammen slaan
+    <l>En roetrook poeft&mdash;aan elke flank een spaan
+    <l>Van booglicht, dat hel-ernstig hunne vaart
+    <l>Ombreed.&mdash;Een knal!... En drimaal zinkt en stijgt
+    <l>&apos;t Blank dundoek, waar de Zonbal scherp in bloed,
+    <l>Als vreemde vlaggenvlucht het want doorrijd
+    <l>Van d&apos;Europese vloot, di hen omtijgt
+    <l>En met geboenk, ver donderend, wedergroet:
+    <l>&apos;t Modern Japan als Grote Mogendheid.
+</lg>
+
+
+
+
+<pb id=pb8 n=8 facs="f:014">
+<div1 id=v1.8 n=VIII>
+<head type=label>VIII.</head>
+
+<head>De Draak van China.</head>
+
+
+<lg><lg>
+    <l>Om China&apos;s Muur, bergwallen, einder-luchten
+    <l>Waarvan naar &apos;t zenit starre Stilte ging,
+    <l>Plang-plangt de trom en doet zijn dwingren duchten
+    <l>Voor d&apos;aandreun, klank van grootse&apos; Omwenteling.
+</lg>
+
+<lg>
+    <l>Alom voor stoomwalm, koolspits-flitsen vluchten
+    <l>Zeilwagens<note>Zeilwagen, chinees vervoermiddel.</note>, sampans,<note n=1>Sampan, chinees vaartuig.</note> waar langs stroomgesling
+    <l>En reels Europa&apos;s ijzeren monsters zuchten,
+    <l>Waar gong-gebong voor klok-getang verging.
+</lg>
+
+<lg>
+    <l>O Rijk van Licht in gruwelnacht verloren,
+    <l>Uw vaan zonk als Gehenna&apos;s zinnebeeld,
+    <l>Doch laat nu vreemde&apos; u &apos;t Tao<note n=2>Tao, het rechte Pad der Deugd volgens de leer van Lao-Tszé.</note> zullen wijzen,
+    <l>Uw monster als een niew simbool hergloren,
+    <l>Door hete gloed van bloemenmeel omgeeld,
+    <l>Weer als de Vuur-Draak van Vooruitgang rijzen.
+</lg></lg>
+
+
+
+
+<pb id=pb9 n=9 facs="f:015">
+<div1 id=v1.9 n=IX>
+<head type=label>IX.</head>
+
+<head>Volkeren-Morgen.</head>
+
+
+<lg>
+    <l>Gegroet, cobors<note n=1>Cobor, spreek uit: sabór, russise katedraal.</note> met groene koepelronden,
+    <l>Di tempels soms van &apos;t Toekomst-Land mij leken
+    <l>En dan m&apos;een plechtig Zondags-bong&apos;len zonden,
+    <l>Met drang van koorgezang mijn ziel doorstreken.
+    <l>&apos;k Wil met den stouten waan der Slaven breken,
+    <l>Di Ruslands wereldheerschappij verkondden,
+    <l>Want reeds zi &apos;k in mijn vlucht naar verder streken
+    <l>Ook den Mongool een mateloos Rijk zich gronden.
+    <l>&apos;t Is me of daar troostend de pagoden-torens
+    <l>Hun luifels voor geknechte volken breiden,
+    <l>Moed schenken door &apos;t opspitsen hunner horens
+    <l>Al wi ook dáár een niwen dag verbeiden
+    <l>En reeds hun schellen met de randen schouwen
+    <l>Naar d&apos;Aarde in aller Volkeren morgen-blauwen.
+</lg>
+
+
+
+
+<pb id=pb10 n=10 facs="f:016">
+<div1 id=v1.10 n=X>
+<head type=label>X.</head>
+
+<head>Pan-Mongolisme.</head>
+
+
+<lg>
+    <l>In China, Birma, Tonkin, al di landen,
+    <l>Wier vlaggen eerst verlamd in luchtrust hingen,
+    <l>Maar di sinds kort vooruitgangsvlagen spanden,
+    <l>Zal snel nu vrij hun kleur en beeld uitslingen:
+    <l>Heet Cochin-China&apos;s geel, omzwart van tanden,
+    <l>Blank Siams Olifant uit wemelingen
+    <l>Van rood en uit di tint met blauwe randen,
+    <l>Cambodja&apos;s Tempel en uit geel aan zwingen,
+    <l>Korea&apos;s Tijger.<note n=1>De Tijger, gevleugeld op geel veld is de vlag van den vorst van Korea.</note>&mdash;Zo voor Frankrijks kleuren,
+    <l>De Duitse en Moscovitise Adelaren,
+    <l>De Union Jack<note>Union Jack, bijnaam van de Engelse vlag.</note> nog &apos;t Gele Ras moet zwichten,
+    <l>&apos;t Zal Dai-Nippón<note>Dai-Nippón, Groot-Japan.</note> zich tot modelstaat keuren,
+    <l>Zijn volken om de blanke Zonvaan scharen,
+    <l>En ze&apos; als hun aller Oriflamme lichten.
+</lg>
+
+
+
+
+<pb id=pb11 n=11 facs="f:017">
+<div1 id=v1.11 n=XI>
+<head type=label>XI.</head>
+
+<head>De Internaatsionale.</head>
+
+
+<lg><lg>
+    <l>Uw jacht op winst om d&apos;aardbol, plutokraten,
+    <l>Zal zelf tot bouw van beter orde&apos; U dwingen,
+    <l>Di wellicht dacht straks &apos;t Volk slechts loon te laten
+    <l>Als koelies in Uw goeden tijd ontvingen.
+</lg>
+
+<lg>
+    <l>Geen vrees, dat spoedig gele Sindikaten
+    <l>De blanken met chinese list verdringen,
+    <l>Of van de werklui de Mongoolse maten
+    <l>Nog steeds de aartsvaderlike liedjes zingen.
+</lg>
+
+<lg>
+    <l>Want zoals draken kraterbrand opstuwen,
+    <l>Vaak van Nippón den gansen bouw bedreigen,
+    <l>Zoo trilt di tans tot wissen val bereid,
+    <l>Waar muilen van de Pers hel lichtvloed spuwen
+    <l>En Marx&apos; parool een leger saam doet tijgen,
+    <l>Dat ginds ook onder &apos;t Rode Vaandel strijd.<note n=1>Sinds 1897 heeft ook Japan zijn sociaal-demokratise partij onder leiding van Sen Josef Katayama.</note>
+</lg></lg>
+
+
+
+
+
+<pb id=pb12 n=12 facs="f:018">
+<div1 id=v1.12 n=XII>
+<head type=label>XII.</head>
+
+<head>Flirt.</head>
+
+
+<lg><lg>
+    <l>Als dame, di met kni-knik voorwaarts treed,
+    <l>Deemoedig nijgt tot minnedienst bereid,
+    <l>Plat den afhoegi onder d&apos;ogen breid,
+    <l>Zo zich hem toereikt uit eng dalend kleed,
+    <l>Di&mdash;daimiyo<note n=1>Daimiyo, edelman, eigenlik: grote naam.</note>&mdash;machtig uit zijn mantel breed,
+    <l>Eén hand aan &apos;t kromzwaard, plots den wajer rijt
+    <l>Uit vasten gordeldruk, beschermend spreid
+    <l>Als meester en zo trots haar welkom heet,
+</lg>
+
+<lg>
+    <l>Zo zi &apos;k Nippón mij hare schoonheid biden,
+    <l>Di schelms een reuzen-wajer tot mij richt,
+    <l>Maar fluks behaagziek niet alleen &apos;t gezicht,
+    <l>Doch heel haar nauw omstrikten, blauwen tooj,
+    <l>Om mij te meer te&apos; ontbranden op haar mooj,
+    <l>Steeds weer in zijn omstraling doet vervlieden.
+</lg></lg>
+
+
+
+
+
+<pb id=pb13 n=13 facs="f:019">
+<div1 id=v1.13 n=XIII>
+<head type=label>XIII.</head>
+
+<head>Onheilsbode.</head>
+
+
+<lg>
+    <l>Gelijk uit dennen, dreigend opgericht
+    <l>Aan roerloos meer in Nippons stille lucht,
+    <l>Als reeds de maanboog, zich bepeinzend, licht,
+    <l>Een zwarte vlinder vliddert,&mdash;geen gerucht
+    <l>Ontwuift zijn rouw&mdash;en op een bloemkroon zwicht,
+    <l>Helwit en smoorstil haar den dood toezucht,
+    <l>&mdash;Dra welkt ze, sleept langs d&apos;oever als ontwricht,
+    <l>Wen d&apos;onheilsbode spoorloos is gevlucht&mdash;
+    <l>Zo stort, wanneer de zon zijn wajering stralen
+    <l>Saamsmalt, een Stoomkoorts, rosse, bleke vrouw,
+    <l>Zwartwikig uit de donkere bossen aan
+    <l>En doemt pagoden, burchten, di nog pralen
+    <l>Als roem van feodale wereldbouw
+    <l>Met dreiggebaar ook ginder te vergaan.
+</lg>
+
+
+
+
+<pb id=pb14 n=14 facs="f:020">
+<div1 id=v1.14 n=XIV>
+<head type=label>XIV.</head>
+
+<head>Atlantis.</head>
+
+
+<lg>
+    <l>In Glori-Ewen voor den Groten Vloed,
+    <l>Rees steil het kokos-wuivend vasteland:<note n=1>Volgens Plato, Buffon en niwere onderzoekers, di dit steeds meer bevestigen (Zi Nouv. Revue van 15 Dec. &apos;95 en 15 Dec. &apos;97) lag er vroeger een vasteland tussen Amerika en Europa. Zelfs doen taalkundige navorsingen vermoeden, dat de Algonquinezen in Canada en de Inca&apos;s in Peru verwant waren evenals de Franse en Spaanse Basken met de bewoners van Atlantis. Het schijnt ook, dat de vroegere Sahara-Zee, gedeeltelik afgeleid door de Egyptenaren door den Bahr-el-Ghazal naar hun rijk, door een vreselike katastrofe, den zogenaamden Zondvloed, genoteerd door de Chinezen in 2297 v. Chr., zich uitstorte over Atlantis.</note>
+    <l>Atlantis, waar zich nu de kabel spoed
+    <l>Door zee en slechts wat scheeps-stoom langs den rand
+    <l>Van d&apos;Oceaan-Bol wimpt. Als aan zijn strand
+    <l>De keizer stond, dan stormde een schimmelstoet
+    <l>Van golven aan, gemend door meermans hand
+    <l>En boog de halzen willig hem te voet.
+    <l>Naar Yucatan,<note n=2>Yucatan, schiereiland van Mechico.</note> naar de Sahara-Zee,
+    <l>Naar zijn Etrurise koloniën,<note n=3><corr sic=Etrurie>Etrurië</corr>, Tuscia, Toscane.</note> On&apos;s<note n=4>On, bijbelse naam voor Egypte.</note> westkust
+    <l>Ruisten zijn draken en stijf wikend week
+    <l>&apos;t Spaan-zwajen van zijn barken, di gedwee
+    <l>De waterbisons trokken naar zijn lust,
+    <l>Al naar zijn septer hun een baan voor streek.
+</lg>
+
+
+
+
+<pb id=pb15 n=15 facs="f:021">
+<div1 id=v1.15 n=XV>
+<head type=label>XV.</head>
+
+<head>De Adelaar der Atlantiden.</head>
+
+
+<lg><lg>
+    <l>En voor der piramiden, tempelen macht
+    <l>Van rots hield als d&apos;Azteken&mdash;fier geveerd
+    <l>Het adelaars-profiel&mdash;het krijgsvolk wacht
+    <l>Met lans en tomahawk<note>Tomahawk, indiaans skalpeermes.</note>, getatoeëerd
+    <l>Met &apos;s keizers Arend, totem, di, vereerd,
+    <l>Gulde op een voorslip en met franje-pracht
+    <l>Hun van de heupen viel en d&apos;afkomst leert
+    <l>Van dit stil-ernstig, heroïek geslacht.
+</lg>
+
+<lg>
+    <l>&apos;t Is of di Vogel, daar van deze stam
+    <l>De Tiberstad Etrurië&apos;s Wet<note n=1>Wat ik hier meld van de Romeinse wetgeving, stond jaren geleden&mdash;meen ik&mdash;in de <foreign lang=en>Fortnightly Review</foreign>.</note> ontnam
+    <l>Als telg den Adelaar van Rome won,
+    <l>En later nog uit verre&apos; Atlanten-loot
+    <l>Een als de arend starend Ziner sproot:
+    <l>Een Dante&apos;, een Angelo, een Napoleon.<note>Dante werd geboren in Florence, Michel Angelo Buonarotti op Florentijns grondgebied en de Corsicaanse Buonaparte&apos;s zijn misschien&mdash;gerechtelik werd het altans erkend&mdash;verwant met de Toscaanse.</note>
+</lg></lg>
+
+
+
+
+<pb id=pb16 n=16 facs="f:022">
+<div1 id=v1.16 n=XVI>
+<head type=label>XVI.</head>
+
+<head>De Dochters van Atlantis.</head>
+
+
+<lg><lg>
+    <l>En zo in &apos;s vorsten vuist de irisbrand
+    <l>Des Adelaars tal van volken overschóót,
+    <l>Zijn vlucht van wigwams<note>Wigwam, indiaanse hut.</note> in het Zilverland<note n=1>Zilverland, Amerika.</note>
+    <l>Tot over Gallië&apos;s dolmen<note n=2>Dolmen of hunnebedden, gallise begraafplaatsen.</note> schaduw goot,
+    <l>Stil boog voor zachte keizerinne-hand
+    <l>Kameel, rendier en hond, &apos;s mans lotgenoot,
+    <l>En duif en pauw, der bloemen vlammen-stand,
+    <l>Magnolia-legioen en leliën-vloot.
+</lg>
+
+<lg>
+    <l>Zo star in wapenpraal de lijfwacht stond
+    <l>Aan poorten van de lotoszuilen-zaal,
+    <l>Waar gasten lagen aan het vorstelijk maal,
+    <l>Ranonkelrank langs gulden gordels wond
+    <l>Een keur van danseressen sluiering
+    <l>Of hun gewank aan zichtb&apos;re ritme hing.
+</lg></lg>
+
+
+
+
+<pb id=pb17 n=17 facs="f:023">
+<div1 id=v1.17 n=XVII>
+<head type=label>XVII.</head>
+
+<head>In oude tijden....</head>
+
+
+<lg>
+    <l>En op der Hoofdstad hoogste tempeldak,
+    <l>Waar men den Zonne-Adelaar hulde bracht,
+    <l>Als hij des morgens zegenend van zijn strak
+    <l>Gespannen zwingen licht afvlaagde, placht
+    <l>Men vuur tot sein te branden. Dan ontstak
+    <l>&apos;t Van fort tot fort een weer-sein, dat bij nacht
+    <l>Zo orders schoot door &apos;t Rijk en op dat vlak
+    <l>Een toorts van wijsheid scheen der sterrenwacht.
+    <l>En wi tot lering van een vreemden stam
+    <l>Atlantis&apos; priesters opzocht, scheen di vlam
+    <l>Als bliksem flitsend over d&apos;Oceaan
+    <l>Alom zo&apos;n licht van weten op te slaan,
+    <l>Waar &apos;t wichelaars-oog verrukt der sterrental
+    <l>Omkringde als dorre prairiën regenval.<note>De optise telegraaf is zoover de weinige gegevens van Atlantis veroorloven te beweren met zekerheid, slechts fantazi, evenals meer in deze groep verzen over dit rijk of di rijken (?)</note>
+</lg>
+
+
+
+
+<pb id=pb18 n=18 facs="f:024">
+<div1 id=v1.18 n=XVIII>
+<head type=label>XVIII.</head>
+
+<head>De Grote Vloed.</head>
+
+
+<lg>
+    <l>Wee!&mdash;Schemering, zwoelte zonk.&mdash;De lucht werd gal
+    <l>Van wolkgedreig&mdash;Voor plotse stormjacht boog
+    <l>Der palmen hals als beulsprooj voor den val
+    <l>Van &apos;t zwaard, aan hozen op spiralend toog
+    <l>Bezweept van bliksems, steigerend tot den hal
+    <l>Des hemels de Sahara-Zee en vloog
+    <l>Zijn kom uit, water stapelend, wal op wal,
+    <l>&apos;t Ontzet Atlantis overwelvend, hoog
+    <l>En honderd-muilig.&mdash;Wee! De Zee verslond
+    <l>Op heuvels &apos;t laatste mensen-kluwen, &apos;t zwond
+    <l>In wiling, elke angstkreet werd gesmoord
+    <l>Door donders. &apos;t Was der goden val. Wee!&mdash;Voort
+    <l>Joeg bliksem en sikloon en golfgedrang.&mdash;
+    <l>Plasregen raasde veertig etmaal lang.
+</lg>
+
+
+
+
+<pb id=pb19 n=19 facs="f:025">
+<div1 id=v1.19 n=XIX>
+<head type=label>XIX.</head>
+
+<head>&apos;t Verloren Eden.</head>
+
+
+<lg>
+    <l>&apos;t Was om di Zee,<note n=1>In de Nouv. Revue van April &apos;93 kwam een artikel voor: Le Secret de Pyramides de Memphis van L. Mayou, waarin word aangetoond, dat zonder twijfel het verhaal in Genezis van het Paradijs voor een groot deel tenminste van Egyptise afkomst is en dat Eden was de landstreek om de vroegere Sahara-Zee. De vier stromen in dien lusthof zijn niet de in den Bijbel genoemden, althans niet van het Paradijs bedoeld door de Egyptenaren, maar de Niger, de Triton, de Oued-Noun en de Oued-Draa.</note> dat Edens vier-stroom stuwde,
+    <l>Waar rozig lotus en flamingo gloejden,
+    <l>Uit bladerheuvelen palmen-vederen sproejden,
+    <l>Oranje-waduwen zwoele wind doorvluwden,
+    <l>In d&apos;overkapte nest-kring wevers<note n=2>In Midden-Afrika bouwen de wevervogels nest-koloniën onder een strojen afdak of parasol om de bomen.</note> tjuwden,
+    <l>De olifant door &apos;t woud een weg zich snoejde,
+    <l>Schaapskudden blanke&apos; amandelen ondervloejden,
+    <l>En heller Zon den Mens door &apos;t loof toe gluwde,
+    <l>Sinds hem de Slang, (het Water), wijsheid leerde
+    <l>Tot landbouw, met den tand (der spâ) liet snijden
+    <l>In d&apos;Appel,<note n=3>De welbekende Appel van Eva, de Almoeder, was de Aard-Bol (zi bovengenoemd artikel) waarin de Mens met den »tand« der spade »beet« tot het graven van kanalen, »bevruchting.« De Egyptise priesters wisten reeds, dat de aarde een bol was. Het grondvlak van de grote Piramide van Cheops, di een bepaald aantal malen in haar oppervlakte was begrepen, diende tot meetkundige uitdrukking van haar uitgestrektheid. En gelijk de Grote Sfinx met het menselik hoofd en lewenlijf het simbool was van den Nijl, wiens hoofd (de menselike geest) den stroom beheerste en aan <pb id=pb42 n=42 facs="f:048">wiens einde de leew huisde, terwijl zes merken van steen op de borst de zes Nijl-watervallen voorstellen, zo was di Piramide meteen een beeld van Egypte zelf. De bovenste drihoekige kamer daarin duide de Nijl-Delta aan, de middenste galerij den Nijl, di zich in twee lagere gangen, den Blauwen en den Witten Nijl, splitste.</note> di d&apos;Almoeder, (d&apos;Aarde), &apos;m bood
+    <l>Doch sinds dien Vloed was &apos;t Teb,<note n=4>Teb of Typhon is de Egyptise god der alles verzengende hitte.</note> di hier regeerde,
+    <l>Er dorheid, hitte, stank en stilte spreide
+    <l>&apos;t Met een rond wentelend zwaard<note n=5>Het wentelend zwaard is de Zon. Zi Genezis III, 24.</note> van vlammen sloot.
+</lg>
+
+
+
+
+<pb id=pb20 n=20 facs="f:026">
+<div1 id=v1.20 n=XX>
+<head type=label>XX.</head>
+
+<head>De Atlantise Oceaan.</head>
+
+
+<lg>
+    <l>En als een vloot, di in een mist verschimt,
+    <l>Waast groen, door roerloos kristallijn omglampt,
+    <l>Atlantis&apos; Hoofdstad. Op haar pleinen glimt
+    <l>&apos;t Zeesterren-firmament en flauw-blauw lampt
+    <l>Er boog aan boog van kwallen. Spichtig klimt
+    <l>De kreeft er trappen op; veelarmig klampt
+    <l>Zich d&apos;inktvis om een zuil en dreigend grimt
+    <l>De muil van haje&apos; uit hoeken, waar bekamd
+    <l>Met stelen, bruin, olijfgroen, knol aan knol
+    <l>Op algenstengels zwelt. Door &apos;t golfgegrol,
+    <l>In noodweer rekt soms uit een wigelkuil
+    <l>Van baren als van spooksels angstgehuil,
+    <l>Maar zont het zeeveld, dan wit wikend spreid
+    <l>En zaajt de meew er slechts: Vergetelheid.
+</lg>
+
+
+
+
+<pb id=pb21 n=21 facs="f:027">
+<div1 id=v1.21 n=XXI>
+<head type=label>XXI.</head>
+
+<head>Het Chrysanthen-Rijk.</head>
+
+
+<lg>
+    <l>Als Rijk van Mythe in &apos;t breed, uitwajerend Licht,
+    <l>Waarvan de goudvis de hoogrode gloed
+    <l>Tot in het diepst van donkere wateren schicht,
+    <l>Zoo prachtte Oud-Japan:&mdash;&apos;t Golft van den voet
+    <l>Des blanken Foedzji-Yama<note n=1>De Foedzji-Yama, de bekende krater van Japan, even vaak afgebeeld op japanse schilderijen als de Vesuvius op italiaanse.</note> overspicht
+    <l>Van ewig pijnboom-groen zijn heuvelvloed
+    <l>Naar zee. Gelijk een vloot bloem-jonken ligt
+    <l>Het pralend door den Oceaan omspoed.
+    <l>&apos;t Is of elk dakscherm, dat ten hemel langt
+    <l>Er vloed van zon-stofgoud en bloesems vangt,
+    <l>Geen god of boeddha, die in tempels woont,
+    <l>Di niet op heil&apos;ge kelk: de Lotus troont
+    <l>En &apos;t impeerjaal blazoen van &apos;t Zonne-Land
+    <l>Siert, heraldiek verstijfd, de Bloem Chrysanth.
+</lg>
+
+
+
+
+<pb id=pb22 n=22 facs="f:028">
+<div1 id=v1.22 n=XXII>
+<head type=label>XXII.</head>
+
+<head><foreign lang=en>The flowers, that bloom in the spring</foreign>....<note n=1><foreign lang=en>The flowers that bloom in the spring</foreign>: De bloemen, di bloejen in de lente.</note></head>
+
+
+<lg>
+    <l>O Land, dat, zo gewolk uw Zon betrekt
+    <l>Beschaduwd als in siësta slingt, gedekt
+    <l>Door halo-bleke stralen, wijd en zijd
+    <l>Als uit een hemel-parasol gespreid,
+    <l>Ge lijkt, als uwe foedzji franje&apos;s breid
+    <l>Eén bloemgrot, waarvan teer-blauw druipsteen glijd,
+    <l>En als de sneew nog langs de takken rekt
+    <l>Dan wit en roodt pruimbloesem, di er gekt
+    <l>Bij &apos;s Winters aftocht. Hier spicht zonder groen,
+    <l>Het tulpgeboomte&apos;<note n=2>De tulpboom krijgt eerst bloemen, later pas groen, de hier bedoelde is de magnolia obovata.</note> om menig pavieljoen,
+    <l>Waar &apos;t rose als bruigoms stoet, blank voor de bruid
+    <l>In tchaya&apos;s<note n=3>Tchaya: teehuis.</note> menig minnend paar omsluit,
+    <l>Dat vlinderlicht in bloemen-sferen leeft,
+    <l>Op wajer-zwier chrysant-gezon doorzweeft.
+</lg>
+
+
+
+
+<pb id=pb23 n=23 facs="f:029">
+<div1 id=v1.23 n=XXIII>
+<head type=label>XXIII.</head>
+
+<head>Avondstond.</head>
+
+
+<lg>
+    <l>En &apos;s avonds tussen meen&apos;ge kamerwand
+    <l>Kilwit gelijk de parelblanke Maan,
+    <l>Als hij vol, ouwelplat, in &apos;t blauw zijn rand
+    <l>Scherpt, vlamt om &apos;t doodstil zwart of hoogrood staan
+    <l>Van &apos;t teeblad-meer, om den chibatsi-brand<note n=1>Chibatsi, (spreek <hi>ch.</hi> uit als in het duitse Hecht,) komfoor uit messing, een schotel met kolen om pijpen aan te steken.</note>
+    <l>Gekelk van lotuskoele, lichte blaân
+    <l>Van teer porselein, waar kleiner meer in spant,
+    <l>Van tcha<note n=2>Tcha, tee.</note> en waaruit prikkelend geuren gaan
+    <l>Naar moesmé&apos;s in &apos;t spits uitgesneden kleed,
+    <l>Dat kartelend als gebloemt de vloer bebreed,
+    <l>Dan rozebloost deurlat-geruit en muur
+    <l>Van lampions, bemorsd met rood, als vloejt
+    <l>In huis aan huis weerschijn van &apos;t lotus-vuur,
+    <l>Dat zacht en vroom voor &apos;t beeld van Boeddha gloejt.
+</lg>
+
+
+
+
+<pb id=pb24 n=24 facs="f:030">
+<div1 id=v1.24 n=XXIV>
+<head type=label>XXIV.</head>
+
+<head>De Mi Kado.</head>
+
+
+<lg>
+    <l>Daar leefde&apos; in een paleis staande&apos; uit een gracht
+    <l>Vol lotusbloemen&mdash;braak rondom de rand&mdash;
+    <l>Met witten toren, violet bevlagd,
+    <l>D&apos;aloudste Dynasti van heel &apos;t Vierkant<note n=1>Volgens een chinese opvatting, door de Japanners overgenomen, was de aarde vierkant.</note>
+    <l>Der Aarde: Dzjimmoe-Tenno&apos;s trots geslacht
+    <l>En blank straalde in de wimpeling de Chrysanth<note n=2>De violette vlag van het Keizerlik Huis heeft in het midden een witte, zestienbladige Chrysanthemum, gestileerd in den vorm van een rad.</note>
+    <l>Van den Mi Kado,<note n=3>Mi Kado, titel des keizers, betekent Verheven Poort.</note> di in fabelpracht
+    <l>Van zaal aan zaal, hel-rijk met wand aan wand
+    <l>Van goudlak, leefde&apos;, onzichtbaar als een god.
+    <l>Eén wajerflap van toorn en &apos;t was gebod
+    <l>Tot hara-kiri,<note n=4>Hara-kiri, zelf-exekuutsi door het openrijten van den buik. Spreek <hi>r</hi> uit tegen het verhemelte.</note> maar heil wi het hoofd
+    <l>Ter aard boog als er gunst mee werd beloofd,
+    <l>Van hem als van astraal-licht<note n=5>Astraal licht, stralende eterise bol, di helderzienden kunnen waarnemen.</note> afglans ving,
+    <l>Slechts zelde&apos; aanschouwd in heil&apos;gen hemelkring.
+</lg>
+
+
+
+
+<pb id=pb25 n=25 facs="f:031">
+<div1 id=v1.25 n=XXV>
+<head type=label>XXV.</head>
+
+<head>De Kogo.</head>
+
+
+<lg>
+    <l>Zoals na d&apos;eerste donder plots de lucht
+    <l>Stof, mensen, bladeren van de wegen vaagt&mdash;
+    <l>Nu plutteren druppels tot, versneld, gerucht,
+    <l>Razen van regen aanvaart&mdash;zo, gejaagd,
+    <l>Nam &apos;t volk voor naderend hoefgeglop de vlucht,
+    <l>Als van den mantelzwier der wacht omvlaagd
+    <l>De Kogo<note n=1>Kogo, de eerste vrouw uit den keizerliken <pb id=pb43 n=43 facs="f:049">harem, keizerin. Spreek <hi>g</hi> uit als in: <hi>Gabe</hi><corr>.</corr></note> aantoog, elk voor &apos;t hoofd beducht.
+    <l>Want sterven moest de onderdaan, di &apos;t waagd&apos;
+    <l>Eén blik te heffen naar den palankijn
+    <l>Van goud, waar achter violet gordijn
+    <l>Ze&apos; in &apos;t wit&mdash;met zwarte draken overkringd,&mdash;
+    <l>Door ebben aureool van &apos;t haar omringd,<note n=2>Er staat »omringd,« daar dit kapsel in vorm van het algemene japanse afwijkt en slechts door de Keizerin en de hofdames word gedragen.</note>
+    <l>School, mysties gloejend &apos;t adelaarsgezicht<note n=3>Een kenmerk van den japansen adel is het arendsprofiel.</note>
+    <l>Als door den gloed der keizersvlag omlicht.
+</lg>
+
+
+
+
+<pb id=pb26 n=26 facs="f:032">
+<div1 id=v1.26 n=XXVI>
+<head type=label>XXVI.</head>
+
+<head>Uit de Midden-Ewen.</head>
+
+
+<lg>
+    <l>Nog staat als ster, di&mdash;langsaam neergedaald&mdash;
+    <l>Voor voetstuk zich tot lotusbloem vergrote<note n=1>De lotusbloem, waarop de Boeddha (Wijze) zetelt is het hoofdsimbool van den boeddhistisen godsdienst.</note>
+    <l>In tempels, waar zijn stengel neerspiraalt
+    <l>En heft&mdash;de blote borst van &apos;t kleed omvloten&mdash;
+    <l>De Boetsoe,<note n=2>Boetsoe in het japans: Boeddha.</note> wiens gelaat Nirwana<note n=3>Nirwana: Voleinding, Zilerust door de vernitiging der ijdele begeerten.</note> straalt.
+    <l>&apos;t Schijnt, zo zijn oogen zalig staan gesloten&mdash;
+    <l>Of &apos;t wimperpaar van Licht toch word doorschoten,
+    <l>Hij als in droom zijn goddelik Woord herhaalt
+    <l>Met breed gebaar. Nog steeds bij &apos;t gongen-gonzen
+    <l>Stroomt &apos;t volk door torii&apos;s<note n=4>Torii, japanse poort bestaande uit twee masten met een dwarsbalk en daarboven een chinees gestileerd juk. Ze staan vooral voor tempels.</note> in de tempels, knielt
+    <l>Het hoofd ter aard&apos; door handgebrei geschoord
+    <l>Of smeekt de handen stijf op met de bonzen<note n=5>Bonze, boeddhisties priester.</note>
+    <l>En mompelt beden als door srik bezield
+    <l>Of &apos;t donderen van het Rad der Karma<note n=6>Karma, de gerechtigheid, di onverbiddelik loont en straft tot in de volgende geslachten. Het Rad der Karma wentelt de gevolgen van idere daad terug op den dader en zijn nakomelingen.</note> hoort.
+</lg>
+
+
+
+
+<pb id=pb27 n=27 facs="f:033">
+<div1 id=v1.27 n=XXVII>
+<head type=label>XXVII.</head>
+
+<head>Het Sintoïsme.<note n=1>Het Sintoïsme, de oorspronkelike godsdienst van Japan, welke ook in China bestaat, is de verering van goden, heröen en voorvaderen. De hoofdsimbolen er van zijn de Spigel als beeld van de Schoonheid, wellicht ook van de Zon, een edelsteen of meestal een kogel van bergkristal, een zwaard en de gohei, witte repen papier samenhangend en dikwijls aan de randen verguld en uit één stuk gesneden van twijfelachtige betekenis zover ik weet. Men onderstelde, dat de Kami of geest van een god zich er op neerzette; verder een banier van brokaat.</note></head>
+
+
+<lg>
+    <l>Nog blijft in Miya&apos;s<note n=2>Miya: sintoïstise tempel.</note> steeds de Spigel stralen
+    <l>En flonkt er Bergkristal, Banier en Zwaard,
+    <l>Waar witte priesterstoet in tempelzalen
+    <l>D&apos;erinnering aan de Kami&apos;s<note n=3>Kami, geest van een voorvader of god.</note> vroom bewaart,
+    <l>Di er op handgeklap van &apos;t Volk neerdalen
+    <l>En door gebed de heldenkracht weergaart
+    <l>Der Vaderen, wier geschim er om blijft dwalen
+    <l>En door hun macht zijn ziel van licht doorklaart,
+    <l>Zo &apos;t veel verwierp van wat de ouden dachten,
+    <l>&apos;t Wil de&apos; ogen toch in effen spanning richten
+    <l>Op de simbolen, di den voorzaat lichtten
+    <l>Om schoner, reiner dan de voorgeslachten
+    <l>Van wat als zonde, duister drukte ontdaan,
+    <l>Een niwe wereld-orde in te gaan.
+</lg>
+
+
+
+
+<pb id=pb28 n=28 facs="f:034">
+<div1 id=v1.28 n=XXVIII>
+<head type=label>XXVIII.</head>
+
+<head>Stervende Adel.</head>
+
+
+<lg>
+    <l>Maar zoals eens de Waterdraken kwamen
+    <l>En met hun muil de ruiters overbogen,
+    <l>Die onder hunnen Adelaar-standaard samen
+    <l>Met wilden oorlogskreet hun tegen vlogen,
+    <l>Doch met hun klauw ze wisten te omvamen
+    <l>En met hun rossen, steigerend opgetogen,
+    <l>Ter aarde draajde&apos;, Atlantis stormend namen
+    <l>Ondanks &apos;t vergeefs, maar toch heldhaftig pogen
+    <l>Van &apos;t adelaars-ras, zo wi nog mocht geloven
+    <l>Van &apos;t arendskroost den draken-stroom te dammen
+    <l>Di in Cipango streek na streek doorstoven
+    <l>Brand zajend met hun kam, gewiek van vlammen,
+    <l>Word duizelend met één pantserboenk versmeten
+    <l>Of in hun gruwb&apos;ren greep vaneen gereten.
+</lg>
+
+
+
+
+<pb id=pb29 n=29 facs="f:035">
+<div1 id=v1.29 n=XXIX>
+<head type=label>XXIX.</head>
+
+<head>De Vuurvloed.</head>
+
+
+<lg>
+    <l>Gelijk de wateren d&apos;Atlantiden velden,
+    <l>Di fier nog tot verweer den vloed weerstonden,
+    <l>En trappen op, terrassen over helden
+    <l>Steeds elken top met enger kring omrondden,
+    <l>Zo, sinds stoom-monsters Oud-Japan doorsnelden,
+    <l>Was &apos;t, of het vuur opnieuw de meer-rotonde
+    <l>Des Foedzji-Yama uitbrak, geizers welden
+    <l>Uit idere plooj, alom de steden stonden
+    <l>In krater-regen en vergeefs hun daken
+    <l>De horens als om hulp ten hemel staken,
+    <l>Waaruit legioenen van gewiekte draken
+    <l>Gestaag verderf naar al hun glori braken,
+    <l>Zelfs sampans, di ter vlucht hun snebben richtten
+    <l>Met heel het Rijk in rook, vuurval doen zwichten.<note>Tegenwoordig is de krater van de Foedzji-Yama een meer.</note>
+</lg>
+
+
+
+
+<pb id=pb30 n=30 facs="f:036">
+<div1 id=v1.30 n=XXX>
+<head type=label>XXX.</head>
+
+<head>De Val van Rome.</head>
+
+
+<lg>
+    <l>Ik ben geen dichter, di zich voelt versmeten
+    <l>Uit vreemde wereld, di hij rijzen ziet,
+    <l>Haar herfstig-somb&apos;ren aanblik wil vergeten
+    <l>En in gedroom naar oude tijden vlied;
+    <l>Wien &apos;t lijkt, alsof geen schakel uit den keten
+    <l>Der Evoluutsi hem verbinding bied
+    <l>Met Hede&apos; en Toekomst en di toch verbeten
+    <l>Vloekt al wat d&apos;Eew van &apos;t Eertijds leven liet.
+    <l>Ik treur niet meer, wanneer ik aan de luchten
+    <l>Den draf van adels-dronken ridderstoet
+    <l>Of &apos;t plechtig aangegleden praalvertoon
+    <l>Van Rome&apos;s Kerk gestoord zi en vervluchten
+    <l>Door walm van &apos;t uit fabriken hevelend roet
+    <l>Als spuwde d&apos;Aarde golpen somb&apos;re hoon.
+</lg>
+
+
+
+
+<pb id=pb31 n=31 facs="f:037">
+<div1 id=v1.31 n=XXXI>
+<head type=label>XXXI.</head>
+
+<head>De Val van Mekka.</head>
+
+
+<lg>
+    <l>Noch, als niet meer heetrood uit een der kommen
+    <l>Van Balkansneew&mdash;als yatagan gewet:&mdash;
+    <l>De Halve Maan opdreigt, noodklokken bommen
+    <l>Door &apos;t Donauland, de bergwacht, uitgezet,
+    <l>Den Sultan staand in &apos;t zadel voor zijn drommen
+    <l>Koráán en zwaard ziet heffen, hun trompet
+    <l>De heem&apos;l en aarde&apos; alom door brandkolommen
+    <l>Eén hal&mdash;den Oorlogs-God van Mohammed
+    <l>Wijdt tot moskee;&mdash;noch, wen dra één: de Slaven,
+    <l>Nu scheuring Habsburgs, Osmans<note n=1>Osman, naam van de Turkse dynasti.</note> Rijk bedreigt
+    <l>En dan Czaar Peters Wil<note n=2>Bedoeld is het Testament van Peter den Groten, dat de russise politiek beheerst.</note> ze voorwaarts dringt
+    <l>Met woest Oera! den Bosforus<note n=3>Een brug over den Bosforus verbind Constantinopel met Skoetari.</note> bedraven,
+    <l>Zijn Adelaar langs d&apos;Aja Sofia<note n=4>Aja Sofia, thans moskee aldaar, vroeger een christelike kerk.</note> stijgt
+    <l>En Mekka&apos;s heiligdom<note n=5>De <corr sic="Käaba">Kaäba</corr>, tempel te Mekka met den heiligen Steen der Muzelmannen.</note> tot puin verzinkt.
+</lg>
+
+
+
+
+<pb id=pb32 n=32 facs="f:038">
+<div1 id=v1.32 n=XXXII>
+<head type=label>XXXII.</head>
+
+<head>De Val van Peking.<note n=1>Daar de Keizer van China de beschermer is van alle godsdiensten in zijn Rijk, kan Peking, waar hij zetelt, als men wil, hun middenpunt genoemd worden.</note></head>
+
+
+<lg>
+    <l>Geen japans masker zi &apos;k meer grijnzend grimmen,
+    <l>Wit-borstelig wenkbrauw-boog en spitse baard,
+    <l>Om puilende&apos; oogen koperkleurig glimmen,
+    <l>Dat aan een hemel leeg van goden staart,
+    <l>Waar sinds de Dertiende&apos; Eew een stadig klimmen
+    <l>Van stemmen<note n=2>In Japan bestaat sinds de XIIIe Eew de z.g. Shin-sekte, een soort protestante Boeddhisten.</note> ook door &apos;t Uiterst Oosten vaart
+    <l>Di na &apos;t asketies, middeneews verschimmen
+    <l>Verkonden, dat Nirwana blijft bewaard
+    <l>Voor hen, di om hun ziel hun vlees niet schonden.
+    <l>Want spoedig word daar hoger Schoon gevonden
+    <l>Dan in &apos;t Feudale Rijk, waar&mdash;rond getogen&mdash;
+    <l>De bonzen bedelden, waar daimiyo&apos;s vlogen
+    <l>Ter valkenjacht, waarvan&mdash;den val nabij
+    <l>Als heel Oud-China&mdash;&apos;k zonder treuren schei.
+</lg>
+
+
+
+
+<pb id=pb33 n=33 facs="f:039">
+<div1 id=v1.33 n=XXXIII>
+<head type=label>XXXIII.</head>
+
+<head>De Franse Republiek.</head>
+
+
+<lg>
+    <l>Mij drukt geen wee, nu ook de Half-Feudale
+    <l>Bourgeois-Respublica verdwijnen moet,
+    <l>Maar &apos;k eens haar Vlag als di der Federale
+    <l>En reiner, heil&apos;ger dan te voor&apos; begroet.
+    <l>Zo Dreyfus tans voor bùrger-joden boet,
+    <l>Waar Rome&apos;s Clerus niet op kan verhalen,
+    <l>Dat Isrel àlle Kerken waggelen doet:
+    <l>&apos;t Woord van Zola zal &apos;t Franse leger stalen,
+    <l>&apos;t Voert niet naar d&apos;Elzas slechts de Tricolore,
+    <l>Doch ook den Muur<note n=1>De Muur is di van Salomo&apos;s Tempel, waar de Hebrejen nog altijd treuren.</note> langs, waar Jehoeda wacht
+    <l>En klaagt en d&apos;Ewen door naar vrijheid smacht,
+    <l>Maar dra zal Gea<note n=2 sameAs=n2.25.1></note> &apos;t als één Staat behoren,
+    <l>Wen met bazuindrang, als herauten-stem
+    <l>Frankrijks trompet rijst in Jeruzalem.
+</lg>
+
+
+
+
+<pb id=pb34 n=34 facs="f:040">
+<div1 id=v1.34 n=XXXIV>
+<head type=label>XXXIV.</head>
+
+<head>Parijs.</head>
+
+
+<lg>
+    <l>Ik treur niet bij de grote Wereld-Wejen,
+    <l>Daar &apos;k vreugd in &apos;t zelf&mdash;mits schoon&mdash;te sterven stel,
+    <l>Om een Atlantis, overzwalpt van zejen,
+    <l>Daar ik van levenskracht me zelf niet tel
+    <l>En vol van hoop, dat weer niew land zal brejen,
+    <l>Dat langsaam steilend uit het golvenspel
+    <l>Met groen zich overhuift, ook nu moskejen,
+    <l>Pagoden, katedralen samen donderen,
+    <l>Als bliksem het elektries licht de wondere
+    <l>Verrijzenis velt der oude heil&apos;ge Steden,
+    <l>Waar vrome pelgrims Ewen henen sreden,
+    <l>Want uit Parijs&mdash;niew Sentrum&mdash;rijst als Baken
+    <l>Reeds d&apos;Eiffel, di héél d&apos;Aard-Bol zal om waken.
+</lg>
+
+
+
+
+<pb id=pb35 n=35 facs="f:041">
+<div1 id=v1.35 n=XXXV>
+<head type=label>XXXV.</head>
+
+<head lang=fr>Fin-de-Siècle.</head>
+
+
+<lg>
+    <l>De wind des Tijds verwaajt de litaniën
+    <l>Van hen, di half deez&apos; Maatschappij begrepen,
+    <l>Maar voor een Wereld van Demokraatsiën
+    <l>&mdash;En half voor di der Bourgeoizi benepen&mdash;
+    <l>Weer staarden naar de vroegere Hierarchiën
+    <l>En met hun oude glori bleven dwepen,
+    <l>Zo, soms door valse Wetenschap geslepen
+    <l>Of dwaas, de wrakke Kerken, Monarchiën
+    <l>Steun schonken.&mdash;
+                <l rend="hemistich(^)">Tans gelijk in een der oren
+    <l>Van een reusachtig, eenzaam Boeddha-Beeld
+    <l>Een vogel, als om dit te wekken, kweelt,
+    <l>Wil ik dit wereldschuw geslacht, verloren,
+    <l>Verdroomd in monnikschap mijn stem toedringen
+    <l>En &apos;t van de Aarde en zoete Zonne zingen.
+</lg>
+
+
+
+
+<pb id=pb36 n=36 facs="f:042">
+<div1 id=v1.36 n=XXXVI>
+<head type=label>XXXVI.</head>
+
+<head lang=fr>Fin-d&apos;Eres.<note n=1 lang=nl>Onder de literatuur en den tijd <foreign lang=fr>Fin-d&apos;ères</foreign> versta ik de tegenwoordige, van het einde der islamitise, joodse, chinese, christelike jaartellingen enz. di plaats moeten maken voor één pannaatsionale, di der Niwe Era, Nouvelle Ere.</note></head>
+
+
+<lg>
+    <l>Ook ik wil d&apos;oude Metropolen prijzen
+    <l>Maar meer de jong&apos;ren, waar het velo-zwiren
+    <l>Den weerschijn overijlt der licht-paleizen:
+    <l>Hotels, café&apos;s, waarin dwerg-palmen tiren
+    <l>Als van stads-zwoelte, waar de treinen grijzen
+    <l>Van stof langs stage zwaaj van hun kwartiren
+    <l>Als ewig jagend rad, of di ze&apos; ontgiren,
+    <l>Terwijl de telegraaf met dalen, rijzen
+    <l>Hijgt, zwoegend door hun stoom.&mdash;
+                    <l rend="hemistich(^)">Doch niet met schempen
+    <l>Zal ik de stem van mijn gevoelens dempen,
+    <l>Di klagend luid of fluisterend toch verkonden,
+    <l>Wat in di Sentra niet werd weergevonden
+    <l>Van feodale praal uit vroeger Leven,
+    <l>Di hun de Niwe Era wéér zal geven.
+</lg>
+
+
+
+
+<pb id=pb37 n=37 facs="f:043">
+<div1 id=v1.37 n=XXXVII>
+<head type=label>XXXVII.</head>
+
+<head>Nouvelle Ere.</head>
+
+
+<lg>
+    <l>Heil, wen behuifd door rozig pruimbloem-dak<note>Pruimenboom, sakoera word ook wel japanse kersenboom genoemd, doch heeft geen eetbare vruchten. Met rose, ook witte bloemen: de Yamasakoera.</note>
+    <l>&apos;t Mensdom den blik naar Nippons zeekring richt,
+    <l>Als Isrels Adelaar zegenend van zijn strak
+    <l>Gespannen zwingen licht afvlaagt, &apos;t gezicht
+    <l>Doet dekken voor den brand, dien hij ontstak,
+    <l>Een vuurstroom als een Jacobsladder ligt&mdash;
+    <l>De Zon uit&mdash;koolrood over &apos;t golvenvlak,
+    <l>Hij, klimmend goudwit hitte-schittering schicht.
+    <l>Heil, als hij op Parijs daalt, &apos;t overhàngt
+    <l>En als de Adelaar van Atlantida,
+    <l>Maar van Nippón dan tot Amerika
+    <l>Met wiekgewelf de Wereld-Bol omvangt,
+    <l>De Rassen&mdash;om &apos;t Latijnse&apos; één Bond&mdash;bestrekt
+    <l>En d&apos;Aard-Ster als één Stad: Niew-Zion dekt.
+</lg>
+
+
+<p rend="align(right)">Amsterdam.
+<lb>1897&ndash;1898.
+
+
+
+
+
+
+
+
+
+
+<pb id=pb45 n=45 facs="f:051">
+<div0 n=II id=pt2 rend="toc-head(KIKOE-NO-HANA.)">
+<head type=label>II.</head>
+
+<head>KIKOE-NO-HANA.</head>
+
+
+
+
+
+
+<pb id=pb49 n=49 facs="f:055">
+<div1 id=v2.1 n=I>
+<head type=super>KIKOE-NO-HANA.<note>Kikoe-no-Hana: Chryzantemums.</note></head>
+
+<head type=label>I.</head>
+
+<head>Wimpels van Wirook.</head>
+
+
+<lg><lg>
+    <l>Ook ginds eindt thans &apos;t metalen, strenge tingen
+    <l>Van Spoorweg-Tijd de wild vervloden stonden,
+    <l>Waar eens uit porseleinen pul de slingen
+    <l>Van &apos;t wirook-stokje<note n=1>De Japanners brandden vroeger tot het meten van den tijd wirookstokjes.</note> hun azuur heenwonden
+    <l>Naar &apos;t effen lucht-turkoojs. Maar &apos;t koortsig dringen
+    <l>Van niwer Leven word nu weergevonden,
+    <l>Waar statig rijzend, licht in wimpelingen
+    <l>De ruime Uren van Oud-Nippon zwonden.
+</lg>
+
+<lg>
+    <l>Nu... ik, di al het Tijds-Wee mee moest dragen,
+    <l>Maar ook zijn Vreugd als enk&apos;len slechts genoot,
+    <l>Schenk elk tot heil, tot rust na &apos;t moordend jagen,
+    <l>Dat harde Plicht of bange Zorg gebood,
+    <l>Deez&apos; kalme ritmen, di in kringels steilen
+    <l>Als d&apos;Uren, daar heengeurend eens in &apos;t IJle.
+</lg></lg>
+
+
+
+
+<pb id=pb50 n=50 facs="f:056">
+<div1 id=v2.2 n=II>
+<head type=label>II.</head>
+
+<head>Levenslust.</head>
+
+
+<lg>
+    <l>Gelijk een moesmé, rood en goud gesmukt,
+    <l>Een hoorbuis, zwart als lak, in &apos;t handekijn,
+    <l>Kortving&apos;rig, mollig-dik, de kintuil drukt
+    <l>Naar &apos;t telefoon-mondstuk, wen als van klein,
+    <l>Klein Jappy<note n=1>Jappy, verkleinwoord van de Engelse afkorting Jap voor Japanners.</note> haar een poppestem toe tjukt
+    <l>En luistert, wijl heur voetjes plots weg zijn
+    <l>In &apos;t kleed, bij &apos;t wachten voor haar strik gebukt,
+    <l>Di reuzenvlinder schijnt, bij &apos;t spreken fijn
+    <l>Dan schatert, dat het ver Japan doorklaart
+    <l>En haar omkaatst op blanken kamerwand
+    <l>En daalt in &apos;s hoorders hart als witte brand,
+    <l>Als bloesemsneew, die uit het lover vaart,
+    <l>Zo moge &apos;n lach uit deze Verzen dringen
+    <l>Als deed zo&apos;n mondje dien om d&apos;Aard-Bol kringen.
+</lg>
+
+
+
+
+<pb id=pb51 n=51 facs="f:057">
+<div1 id=v2.3 n=III>
+<head type=label>III.</head>
+
+<head>Rust.</head>
+
+
+<lg><lg>
+    <l>O dwaas geslacht, dat zich verderft met wanen,
+    <l>Dat ge&apos; eindloos voort in arbeids-koorts kunt spoeden,
+    <l>Met trein en stoomboot, over oceanen
+    <l>Door tunnels steeds maar &apos;t tringelen kunt doen woeden
+    <l>Van telegrafen, dat door pers-vulkanen
+    <l>&apos;t Hoofd steeds in zwoele&apos; idejen-walm laat broeden
+    <l>Als in tropies klimaat, uw kracht voelt tanen
+    <l>En &apos;t met nevroze, zwakte moet vergoeden.
+</lg>
+
+<lg>
+    <l>Wil van het werkzaam ras der Yankees leren,
+    <l>Dat ze&apos; uren soms met niets te doen verdromen,
+    <l>Voor overmoeheid hen er toe zou doemen,
+    <l>Tracht soms tot kalmte, stilte weer te keeren,
+    <l>Zoals de ibis roerloos peinst aan stromen,
+    <l>Waar flauw slechts vlotting vaart van lotusbloemen.
+</lg></lg>
+
+
+
+
+<pb id=pb52 n=52 facs="f:058">
+<div1 id=v2.4 n=IV>
+<head type=label>IV.</head>
+
+<head>Kerstmis-Stemming.</head>
+
+
+<lg><lg>
+    <l>Tans bij uw nadering: hoge, heil&apos;ge Nacht,
+    <l>Verdroom ik voor het vuur naar vaag Voorheen,
+    <l>Toen met den hogen hoed, in Quaker-dracht<note n=1>Het kostuum der Quakers werd de revoluutsionaire dracht van den Tiers-Etat, nadat Franklin in di kleding, de hoge hoed, zwarte frak en lange broek het Hof bezocht van Lodewijk XVI.</note>
+    <l>Franklin voor &apos;t eerst aan &apos;t Franse Hof verscheen,
+    <l>Di sinds zo heer als knecht te tojen placht;
+    <l>Op rust- en feestdag kreeg elk di gemeen
+    <l>En ider Volk&mdash;door stoom- en bliksemkracht&mdash;
+    <l>In dat kostuum word met héél &apos;t Mensdom Eén.
+</lg>
+
+<lg>
+    <l>Plots buigt voor mij een Jap,&mdash;een kikoe<note n=2>Kikoe: chryzant.</note> siert
+    <l>Wit, keurig &apos;t zwart, kosmopolities kleed&mdash;
+    <l>En wuift mij heil met den silinder-hoed
+    <l>Of hìj ook Kerstmis in den dos meeviert,
+    <l>Waarin ook hèm elk Mens een broeder heet.<note n=3>Volgens de leer van Confucius.</note>
+    <l>En van zijn blanke borst w&aecirc;mt vredegloed.
+</lg></lg>
+
+
+
+
+<pb id=pb53 n=53 facs="f:059">
+<div1 id=v2.5 n=V>
+<head type=label>V.</head>
+
+<head>&apos;98&ndash;&apos;99.</head>
+
+
+<lg><lg>
+    <l>Twaalf Uur!... En twaalf maal voor heel &apos;t Jaar verron
+    <l>Bong-bangt m&apos;een gong, nu &apos;t met een groetgebaar
+    <l>Een sabel strekt, voor &apos;t wijkt: met goud galon
+    <l>Om rode kepi<note n=1>De Japanse kavaleri draagt rode kepi&apos;s.</note> op zwart vrachtend haar,
+    <l>Op &apos;t heilig-witte kleed straalloos de Zon,
+    <l>Lakrood, bezweefd door gouden Adelaar,
+    <l>En blank chrysanthen, des Mi Kado&apos;s Mon,<note n=2>Mon: blazoen.</note>
+    <l>In violette sjerp. Na lang gestaar
+    <l>Tot &apos;t laatst gedreun, verzwind het, Geest van Strijd,
+    <l>Maar di in Schoonheid, als nog noojt mij blonk,
+    <l>Van heel een niwe wereld rust m&apos;ook schonk.
+</lg>
+
+<lg>
+    <l>Niew Jaar, dat óók japans mij nader glijd,
+    <l>Zacht blauw omsleept in gulden kikoe-gloed,
+    <l>Wees gij tans maar als vredebô gegroet.
+</lg></lg>
+
+
+
+
+<pb id=pb54 n=54 facs="f:060">
+<div1 id=v2.6 n=VI>
+<head type=label>VI.</head>
+
+<head>Mongoolse Stemming.</head>
+
+
+<lg>
+    <l>De bonkels, schakels gasgoud kim-ver zwichten
+    <l>Langs straat-, aan straatbaan saam, lantarens kijken
+    <l>Eenzaam uit groen, waarin ze weer verwijken,
+    <l>Nu &apos;k Amsterdam doordool. De lichten, lichten
+    <l>Staan als in kappen, spits-mongools; er richten
+    <l>Zich draken-paren langs hun brons op, lijken
+    <l>De koppen van elkaar gedraajd te prijken
+    <l>Om strijd met wreden muil. De standaards spichten
+    <l>Als kaarsen vroom bij honderden ontstoken
+    <l>In blauwe tempelhal, waaraan ontloken
+    <l>De sterren goud heenspetten, vuur-chrizanten,
+    <l>Di Kami&apos;s kunstig in figuren plantten<note n=1>De Japanners planten chryzanten in allerlei fantastise vormen.</note>
+    <l>Om Boeddha&apos;s hoofd, reus, hoog de Stad ontgrauwend,
+    <l>Blind voor d&apos;omflonkering slechts zich zelf doorschouwend.
+</lg>
+
+
+
+
+<pb id=pb55 n=55 facs="f:061">
+<div1 id=v2.7 n=VII>
+<head type=label>VII.</head>
+
+<head>Japanse Weelde.</head>
+
+
+<lg>
+    <l>Ik wuif m&apos;in droom als vorst, zwart-goud door zalen,
+    <l>Diep als een zich weerspigelende warande,
+    <l>Waar gulden reigers op geel tochtscherm pralen
+    <l>En kleurig jacht en oorlog op de wanden
+    <l>Van louter goud, waarin portiken stralen
+    <l>Stervormig of rond staan, lakzwart van randen,
+    <l>Waar &apos;t fries langs eiber-, drakendriften dwalen
+    <l>Van hoek tot hoek. Plots aan roodzijden banden
+    <l>Rijst bamboe, dun, een transparant gordijn:
+    <l>Wesp-eng de leest uit haar gehurk oprankend
+    <l>Zi &apos;k mijn Kissaki<note n=1>Kissaki of Kogo: Keizerin.</note> van brokaat beflinterd
+    <l>En zij rijst mede als een godin in schijn
+    <l>Van &apos;t naaldgeknop als sterren &apos;t haar omsprankend,
+    <l>Wien &apos;t goud de wade als ontschilft, omsplintert.
+</lg>
+
+
+
+
+<pb id=pb56 n=56 facs="f:062">
+<div1 id=v2.8 n=VIII>
+<head type=label>VIII.</head>
+
+<head>Treurig, treurig.</head>
+
+
+<lg>
+    <l>Regen, regen klettert strak
+    <l>Op dri moesmé&apos;s, klein van voetjes
+    <l>Trippend vlug op hoge klak.<note n=1>Bij regenweer lopen de japanse vrouwen op houten sandalen met twe blokjes er onder, een soort klakken.</note>
+    <l>Wind heft van de arme bloedjes
+    <l>De kimono,<!-- <note n=2></note> --> di nu strak
+    <l>Langs hun benen spant, behoedjes
+    <l>Huiv&apos;ren zij bijeen in &apos;t dak
+    <l>Van hun parasols. Hun snoetjes
+    <l>Nijgen saam. Ach, d&apos;ogenlichtjes
+    <l>Staan zo droef in de gezichtjes,
+    <l>Nu ze&apos; als vlinders, di verschuilen
+    <l>Voor een stortvloed, druilen, pruilen.
+    <l>Dribb&apos;lend schuw langs stratenvlak
+    <l>Schud het drital: klak, klak, klak.
+</lg>
+
+
+
+
+<pb id=pb57 n=57 facs="f:063">
+<div1 id=v2.9 n=IX>
+<head type=label>IX.</head>
+
+<head>In Vogelvlucht.</head>
+
+
+<lg><lg>
+    <l>De heil&apos;ge, witte Reiger spicht
+    <l>Van hogen tak en klemt nog even
+    <l>Aan &apos;t nest, wijl hij de wiken licht
+    <l>En flappert, stuwt dan heen, gedreven&mdash;
+    <l>Weer roerloos&mdash;door het wind-gewicht,
+    <l>Nog onder d&apos;oksels hem gebleven,
+    <l>Waarmee hij wateren overschicht.
+</lg>
+
+<lg>
+    <l>Zo wil &apos;k op ritmen &apos;t Rijk bezweven,
+    <l>Waar in den dans de moesmé&apos;s wuiven
+    <l>Als tombo&apos;s,<note n=1>Tombo&apos;s: waterjuffers.</note> di op meervlak staan,
+    <l>Waar daken, torens d&apos;aarde ontstuiven,
+    <l>Gewiekt door wolken bloesems slaan
+    <l>Om&mdash;wen de Zon rijst in de lucht,&mdash;
+    <l>Di als te volgen in zijn vlucht.
+</lg></lg>
+
+
+
+
+<pb id=pb58 n=58 facs="f:064">
+<div1 id=v2.10 n=X>
+<head type=label>X.</head>
+
+<head>Toekomstige Bouwstijl.</head>
+
+
+<lg>
+    <l>Reeds rijzen smal, strak uit gereik van draden,
+    <l>Roetwalmen, die droef &apos;t volks-gemier bezweven,
+    <l>Sky-skrapers<note n=1>Sky-skrapers, de amerikaanse huizen van twintig en meer verdiepingen.</note> vóórvorm van een lichter Leven,
+    <l>Dat uit hen stijlt tot plein-brede&apos; esplanaden
+    <l>Om Piramiden, star in kolonnaden,
+    <l>Waarlangs mongoolse luifels, spits geheven
+    <l>Excelsior wijzen, als simbool van &apos;t streven
+    <l>Der Mensheid, die &apos;t massaal gezwoeg zal smaden
+    <l>Als &apos;t log trein-slepen der lokomotiven
+    <l>En in lucht-jonken vrij daar héén zal kliven.
+    <l>En tot hun toppen zal de muil van draken,
+    <l>Di tans slechts op pagoden, dai-ba&apos;s<note n=2>Dai-ba, japanse burcht.</note> waken,
+    <l>&apos;t Kristal-gehuif van lichtende fonteinen
+    <l>Met kleur-brand van Háár levensvreugd doorschijnen.
+</lg>
+
+
+
+
+<pb id=pb59 n=59 facs="f:065">
+<div1 id=v2.11 n=XI>
+<head type=label>XI.</head>
+
+<head>Japanse Munt.</head>
+
+
+<lg><lg>
+    <l>Gelijk de Kikoe op het vierkant geld
+    <l>In zestien bladerspichten stralend ligt
+    <l>En er de Draak, di in de keerzij knelt
+    <l>Met wijd geklauw, onttrekt aan het gezicht,
+    <l>Dekt dit land met zijn perzik-bloej, di dicht
+    <l>In wolken opbolt &apos;t onderaards geweld
+    <l>Dat plots een vuurzuil soms ten hemel richt,
+    <l>Met lava-vloeden daar de flora velt.
+</lg>
+
+<lg>
+    <l>Maar deze Munt van Dai-Kok<note n=1>Dai-Koku (spreek uit Dai-Kok) de god van den rijkdom.</note> ginds een Teken
+    <l>Schijnt tans &apos;t embleem van heel deez&apos; niwen Tijd,
+    <l>Nu ider Volk expanzi zoekt in streken,
+    <l>Waar d&apos;Aarde breed ligt of ze&apos; ontginning beid,
+    <l>Wat haar slechts tot een korte schijnbloej voert,
+    <l>Waaronder vals een Draak van Oorlog loert.
+</lg></lg>
+
+
+
+
+<pb id=pb60 n=60 facs="f:066">
+<div1 id=v2.12 n=XII>
+<head type=label>XII.</head>
+
+<head>Expanzi-Kunst.</head>
+
+
+<lg>
+    <l>Weg uit de metropolen, in wier straten
+    <l>Vergeefs reklame kleur laajt om profijt,
+    <l>Naar land, waar achter d&apos;aanmars van soldaten
+    <l>De vracht-trein zelf steeds verder rails aanrijd,
+    <l>Waar d&apos;Ariërs en Mongolen nakroost laten,
+    <l>Dat weldra ginds tot hoger ras gedijt
+    <l>En d&apos;oerkracht van nog maagd&apos;lik-jonge Staten
+    <l>Ook frisse stromen van gezondheid breid
+    <l>Door &apos;t duf, klein West-Europa. Moe van &apos;t teren,
+    <l>Op zijn kultuur, zag &apos;k mijn verlangens rekken,
+    <l>Ook mij in droom-jonk als een reiger-span
+    <l>Voortspichtend naar het Uiterst Oosten trekken,
+    <l>Want &apos;k zocht als dichter niwe schoonheids-sferen:
+    <l>Tot heil der toekomst-kunst vloog &apos;k naar Japan.
+</lg>
+
+
+
+
+<pb id=pb61 n=61 facs="f:067">
+<div1 id=v2.13 n=XIII>
+<head type=label>XIII.</head>
+
+<head>Zijdeteelt.</head>
+
+
+<lg>
+    <l>Zich rekkend, krimpend als van lampion
+    <l>&apos;t Papiergerimp kruipt in den heten noen
+    <l>De zijrups over &apos;t donzig, zon-nat groen
+    <l>Van moerbeiblaren, waar hij stof uit won
+    <l>Voor dradenweefsel om daar zijn kokon
+    <l>Dan in te hangen, di fel geel tot kloen
+    <l>Of vlos word afgewield, nadat hij koen
+    <l>&mdash;Uit bruine huls ontpopt&mdash;de lucht begon
+    <l>Te&apos; omvamen, dien in vlinder-staat verliet.
+    <l>Zo rijk gevoed door aarde-groen, met kracht
+    <l>Der Werkelikheid, gedrenkt door gouden zon
+    <l>Der Fantazi, schept dichters ziel en spon
+    <l>Zich in zijn werk gans weg, tot hij &apos;t volbracht
+    <l>En &apos;t als gewiekt voor hoger staat ontvlied.
+</lg>
+
+
+
+
+<pb id=pb62 n=62 facs="f:068">
+<div1 id=v2.14 n=XIV>
+<head type=label>XIV.</head>
+
+<head>Nacht.</head>
+
+
+<lg>
+    <l>Gelijk een moesmé in blauw nachtgewaad<note n=1>De gewone kleur van het nachtgewaad der japanse vrouwen is blauw.</note>
+    <l>In haar makoera<note n=2>De makoera vervangt het hoofdkussen; het is een kleine sraag, in het midden hol, zó dat het hoofd er in rust.</note> ligt, zodat ze &apos;t git
+    <l>Der haren zelfs in slaap nog pralen laat
+    <l>In speldenkrans, naast een lantaarn, glad-wit,
+    <l>Welks schijn door boze geesten word gehaat,
+    <l>Insluimert onder &apos;t kaya-gaas<note n=3>Kaya, een soort van gaas, waaronder men daar sluimert, dinend tot beveiliging tegen de muskiten.</note>&mdash;gevit,
+    <l>Luid brommen van muskiten, muggen gaat
+    <l>Rondom, tot als een god de vuur&apos;ge pit<note n=4>Naast het rustbed brand een witte lamp om de boze geesten te verjagen in den vorm van een overlangs geopenden silinder op een voetstuk.</note>
+    <l>Ze trekt, tot offers schroejt&mdash;zo over stromen,
+    <l>Rotswanden glijd en glanst een kleed van blauw
+    <l>Wanneer Nippón zelf weer ter rust wil gaan
+    <l>Het Rijk slankt heen, verwaasd in web van dauw.
+    <l>En, opdat geen vuurdraak het wekt uit dromen,
+    <l>Spant trouw aan d&apos;einder vol en blank: de Maan.
+</lg>
+
+
+
+
+<pb id=pb63 n=63 facs="f:069">
+<div1 id=v2.15 n=XV>
+<head type=label>XV.</head>
+
+<head type=super>Kamerscherm.</head>
+
+<head>I. Haroe.<note n=1>Haroe: lente.</note></head>
+
+
+<lg>
+    <l>Nu &apos;k eindelijk vrij na zwaren strijd mag pozen
+    <l>Wil &apos;k door de simbolike tuinen<note n=2>Vele planten in de japanse tuinen hebben een simbolise betekenis.</note> zweven
+    <l>Een vlinder,&mdash;waar in zalig liefdeleven
+    <l>Pijnen<note n=3>De pijnboom, matsoe, di het mannelik en vrouwelik geslacht verbeeld.</note> saamwuiven, bladloos bloesems blozen
+    <l>Van moeme&apos;<note n=4>Moeme: pruimenboom.</note> en momo<note n=5>Momo: perzikboom.</note> of er d&apos;uchtend-rozen
+    <l>Van wolken in het voorjaar aardwaarts dreven,
+    <l>Waar bamboe-palmen uit hun ringen streven
+    <l>Al hoger, daarom tot zinbeeld gekozen
+    <l>Van hogen leeftijd, waar kapellen deinen
+    <l>Op bloemdons in den wind, zaad-appels puren
+    <l>Uit vlammenklokken, diepten, fulp van muren
+    <l>En moesmé&apos;s over brugjes, enge paden
+    <l>Door bloemenmist van &apos;t dwerghout wankend waden
+    <l>Dat zij godinne&apos; omzwermd van sterren-schijnen.
+</lg>
+
+
+
+
+<pb id=pb64 n=64 facs="f:070">
+<div1 id=v2.16 n=XVI>
+<head type=label>XVI.</head>
+
+<head>II. Natsoe.<note n=1>Natsoe: zomer.</note></head>
+
+
+<lg><lg>
+    <l>Rondom de zon-trofee, &apos;t azuur af, hangen
+    <l>Lichtblauwe foedzji&apos;s wijder steeds ten hogen,
+    <l>Of ze als een vloed geluk ter aarde langen.
+    <l>Van hitte als van krekel-gons bewogen
+    <l>Zoemt d&apos;atmosfeer en moe van &apos;t zwoele prangen
+    <l>Zucht zij uit donker-rode&apos; azalea-bogen
+    <l>Met hete monden. Door den gloed bevangen
+    <l>Zijn de schildpadden&mdash;roerloos nu&mdash;getogen
+    <l>In &apos;t lommer.&mdash;
+              <l rend="hemistich(^)">Licht met biwa-tonk&apos;ling glijden
+    <l>Vioolslank door goudvloed en lotusweiden
+    <l>De gondels achter gaap van drakenmuilen,
+    <l>Di geisha&apos;s sluimerend in hun tent omtuilen.
+</lg>
+
+<lg>
+    <l>En tot in &apos;t donkerst diep der huizen lomen
+    <l>Van Boeddha&apos;s d&apos;ogen tot dof, Indies dromen.
+</lg></lg>
+
+
+
+
+<pb id=pb65 n=65 facs="f:071">
+<div1 id=v2.17 n=XVII>
+<head type=label>XVII.</head>
+
+<head>III. Aki.<note n=1>Aki: herfst.</note></head>
+
+
+<lg>
+    <l>Geen weemoed hier als wijnrood bladeren dalen
+    <l>Van den ahorn, waar in één jaargetij
+    <l>De foeyo&apos;s<note n=2>Foeyo: de hibiscus mutabilis, een plant, welks bloemenkroon kleur-wisselt, eerst wit, dan rood en eindelijk purper. Deze bloejt in Japan in den herfst.</note> eerst in &apos;t blank der lente pralen
+    <l>Dan hoogrood zomers, dan in herfst-kleedij
+    <l>Van ernstig purper, want één Bloem blijft dralen
+    <l>En fleurt steeds rozig uit haar vaas van zij,
+    <l>Eén Vlinder blijft met wijds gewuif hier dwalen,
+    <l>Eén Vogel juicht, al dolt de sneew voorbij,
+    <l>Di breed-klassiek om &apos;t haar-gewicht te dragen
+    <l>&mdash;Trots door een zon van speldentooj omrand&mdash;
+    <l>&apos;t Hoofd in een zuilenpaar van kikoe&apos;s<note>De Kikoe: chryzantemum is de naatsionale bloem en dáár de herfst-tooj bij uitnemendheid.</note> lijst,
+    <l>Di vleiend en met speelse wajerslagen
+    <l>In elk seizoen zang, dans en liefde prijst:
+    <l>De Geisha<note n=3 sameAs=n1.4.2></note> van het Ewig-Lente-Land.
+</lg>
+
+
+
+
+<pb id=pb66 n=66 facs="f:072">
+<div1 id=v2.18 n=XVIII>
+<head type=label>XVIII.</head>
+
+<head>IV. Hoeyoe.<note n=1>Hoeyoe: winter.</note></head>
+
+
+<lg><lg>
+    <l>Het pijnhout stompt bevacht na <corr sic=t>&apos;t</corr> eindloos vlokken-stoejen
+    <l>&apos;t Getak uit, stil, in &apos;s Winters witte Oceaan,
+    <l>Waarin hoogrood alleen gelijk het Zonbal-gloeien
+    <l>Voor lage lucht&mdash;weekgrijs&mdash;brugjes en torii&apos;s staan.
+    <l>Zelfs uit plantages, waar de tee-struik dan gaat bloejen
+    <l>Ziet men slechts fleur van sneew, van witte vlammen slaan;
+    <l>Een blank-papier gehucht, welks daken wit bewoejen,
+    <l>Blokt er als in krijtbleke bergkom op de Maan.
+</lg>
+
+<lg>
+    <l>Maar fabuleuzer nog dan, als de bloemen pronken,
+    <l>Bij &apos;t zinken van de Zon, wanneer als zilver zand
+    <l>Sneeuwkorrels tintelen, haar rosé hun wit doet kwijnen.
+    <l>Gaat tot nirwana<note n=2>Nirwana, toestand van zalige reinheid, betekent letterlik het verwajen tot niets d.w.z. der boze hartstochten, hier echter gebruikt in den zin van overgang uit dofheid tot doorschijnendheid.</note> ook di gloed verkristallijnen;
+    <l>Nippón glinst, schittert in mieljoenen wintervonken,
+    <l>Start, sterrelt tot één Rijk van rozig diamant.
+</lg></lg>
+
+
+
+
+<pb id=pb67 n=67 facs="f:073">
+<div1 id=v2.19 n=XIX>
+<head type=label>XIX.</head>
+
+<head>Straat bij avond.</head>
+
+
+<lg>
+    <l>Nauw slaat de Zon zijn stralen-wajer dicht
+    <l>En snelt omhoog nog slechts één bundel licht
+    <l>Of reeds langs dubbele vuurgierlanden-lijn
+    <l>Der winkels schommelen bamboe-stengels schijn
+    <l>Van lampions om menig geel gezicht,
+    <l>Maar di langs d&apos;ingekeepten haardos zwicht.
+    <l>In kraft-, peer-, bolvorm hangt als gouden wijn
+    <l>Hun brand, waarvan ze&apos; als kleurig matglas zijn
+    <l>Doorgloejd, en waarom lakzwart randen staan.
+    <l>Dan in de huizen langs papierwand gaan
+    <l>Mens-schaduwen: een buigt, een ander wuift,
+    <l>Een&mdash;eerst slechts romp&mdash;stijgt, wijkt, strijkt nader, schuift
+    <l>Plots weg. En klimmend ziet het elpen manemom
+    <l>Chinese schimmen-mimen, druk en stom.
+</lg>
+
+
+
+
+<pb id=pb68 n=68 facs="f:074">
+<div1 id=v2.20 n=XX>
+<head type=label>XX.</head>
+
+<head>Strafplaats.</head>
+
+
+<lg>
+    <l>Op stenig veld<note n=1>Dit veld bevind zich in Yeddo (Tokio). Onder een banaanboom staat er een Boeddhabeeld.</note> waar vroeger moordenaars rilden
+    <l>In blauwe schandekiel<note n=2>De misdadigers droegen en dragen misschien nog alleen een kiel van blauwe boomwol en loshangende haren.</note> voor hun geleide
+    <l>Met vreselik masker, aan den helm ter zijde
+    <l>Horens als duivels, die hen grijpen wilden
+    <l>Tot prooj nog voor een houw hun lijf verkilde
+    <l>Door &apos;t zwaard en op den mutserd &apos;t kruis zich spreide,
+    <l>Waaraan brandstichters eens den vuurdood beidden
+    <l>Vergeefs om Boeddha, di daar zetelt, gilden,
+    <l>Daar ijlen tans kaal met dri dotten haren
+    <l>Aan &apos;t voorhoofd moesko&apos;s<note n=3>Moesko: knaap, moesmé: meisje.</note> met een zorgeloos kijken
+    <l>Naar vligers<note n=4>De japanse kinderen spelen met vligers van allerlei fantastise vormen met maskers er op, in de gedaanten van boeddha&apos;s met dikke buik, vampirs, enz.</note> di met srik-profiel neerstaren
+    <l>En hier, nu vroegere moordlust er moest wijken
+    <l>Voor beter Recht, speelt kind van niwer Tijd
+    <l>Nog met een beeld van d&apos;oude Gruwzaamheid.
+</lg>
+
+
+
+
+<pb id=pb69 n=69 facs="f:075">
+<div1 id=v2.21 n=XXI>
+<head type=label>XXI.</head>
+
+<head>Bruiloft.</head>
+
+
+<lg>
+    <l>Begroet met koto, samisen en fluit,
+    <l>Met biwa<note n=1>Biwa: een soort mandoline.</note> slanke, rood omkoorde trom,<note n=2>De Japanners hebben een smalle, lange trom, di met één hand word beslagen.</note>
+    <l>Door den vergeefs waaj&apos;renden bruidegom,
+    <l>Wiens schouders blauw uitspitsen<note n=3>Het huweliksgewaad bestaat o. m. uit een blauwe, wijd uitstaande plastron.</note> treed de bruid
+    <l>Gesluierd, wit, bebloemd haar kago<note n=4>Kago: een open draagstoel, di op de schouders van twe man gedragen word.</note> uit,
+    <l>Nijgt, spreid d&apos;afhoegi achter &apos;t kapsel om
+    <l>Als dinares. Uit pot met dubbele tuit<note n=5>Bij bruiloften word door de z.g. vlinders, twe bruidsmeisjes met kolossale strikken uitgedost, in den vorm van kapellen, aan het jonge paar saké, een drank uit rijst gestookt, geschonken uit een metalen pot met dubbele tuit als een simbool van trouw.</note>
+    <l>Schenkt &apos;t vlinderpaar saké in lotuskom.
+    <l>Van de gezichten aller vrienden gaan
+    <l>Hel glansen als van blanken wand. Daar staan
+    <l>Geschenken, reigers<note n=6>Reigers zijn als bruidsgeschenk en in het algemeen in Japan een zinnebeeld van geluk.</note> en in bloemen &apos;t beeld
+    <l>Der echtgenote&apos;. En menig moesmé streelt
+    <l>Daar &apos;t loenzend vragen van een jonkmans-oog
+    <l>En giert en schuilt plots achter wajerboog.
+</lg>
+
+
+
+
+<pb id=pb70 n=70 facs="f:076">
+<div1 id=v2.22 n=XXII>
+<head type=label>XXII.</head>
+
+<head>Watervogels.</head>
+
+
+<lg>
+    <l>Aan meerbocht als in riten zaal
+    <l>Van stengelbogen rusten scharen
+    <l>Van reigers, die in schouderhaal
+    <l>Den snavel trug den vloed bestaren.
+    <l>Maar waar het licht flonkt, trekt gedwaal
+    <l>Van kranen en van ojevaren
+    <l>Als keizers, wien &apos;t in godenpraal
+    <l>Slechts blieft door een paleis te waren.
+    <l>En soms dan klept na luid gesnater
+    <l>Hun vlucht fier heersend over &apos;t water.
+    <l>Als willen zij de vissers tonen,
+    <l>Wier sampan-kiel het meer doorruist,
+    <l>Dat van Amaterazoe&apos;s<note n=1>Volgens de overlevering stammen de Mi-Kado&apos;s af van Amaterazoe, de godin der Zon. Zij leefden in fabelachtige weelde zeer afgezonderd.</note> zonen
+    <l>De geest in hun gestalten huist.<note n=2>De Japanners geloven aan zielsverhuizing.</note>
+</lg>
+
+
+
+
+<pb id=pb71 n=71 facs="f:077">
+<div1 id=v2.23 n=XXIII>
+<head type=label>XXIII.</head>
+
+<head>In den Tempel van <corr sic="Kamé Ido">Kamé-Ido</corr>.<note n=1>De tempel van Kamé-Ido is gewijd aan Ten-Man, de Apollo der japanse dichters, aan wien ze als ex-voto hun penselen wijdden.</note></head>
+
+
+<lg>
+    <l>Zo ik bekoord door rose bloesemweelde
+    <l>Noojt blank velijn met verzen-val, hoogrood,
+    <l>Met lentegloed van poëzi bedeelde,
+    <l>Dan hing als liefde-vlag aan kersenloot,
+    <l>Als daimiyo nooit ten dicht-wedstrijd genoot
+    <l>Op blanke&apos; afhoengi minnezang penseelde
+    <l>En deze als bestroojd met bloemen bood
+    <l>Aan haar, wier spelden-zon di zielsbloej teelde,
+    <l>Toch offer ik, zo ik mij niet mag meten
+    <l>Met velen, di hun dicht-penseel U wijdden
+    <l>O Ten-Man,<note n=2>Ten-Man zelf, een dichter uit de IXe Eew, werd later als zodanig geëerd.</note> U mijn stift van niwer tijden,
+    <l>Wil ook mij, vreemde duivel, niet vergeten
+    <l>En &apos;k zal met ritmen wuivend wajer-zwiren
+    <l>Nog steeds, o dichtgod, Nippons glori viren.
+</lg>
+
+
+
+
+<pb id=pb72 n=72 facs="f:078">
+<div1 id=v2.24 n=XXIV>
+<head type=label>XXIV.</head>
+
+<head>Voor den Strijd.</head>
+
+
+<lg><lg>
+    <l>&apos;k Ben niet van &apos;t weerloos soort bourgeois-poëten,
+    <l>Dat leeft voor kunst slechts, niet naar welstand taalt,
+    <l>In week, onmanlijk droomen niet wil weten,
+    <l>Hoezeer het Geld des dichters heil bepaalt.
+    <l>Neen, &apos;k voel mij nu een daimiyo, di&mdash;vergeten
+    <l>Den kamp en &apos;t koel beleid&mdash;door rust zich staalt,
+    <l>&apos;t Zwaardkoppel, &apos;t hoornen pantser afgesmeten
+    <l>In losser dracht en loom met rijzen draalt.
+</lg>
+
+<lg>
+    <l>O zalig slingt de wirook van deez&apos; Uren&mdash;
+    <l>De knieën van mijn geisha&apos;s rond&mdash;zijn lint,
+    <l>Dichtbeelden, of hun dansen ewig duren,
+    <l>Wijl zoete nevel hun gewank omwind
+    <l>En ze&apos;, als door wimpels van den ritme&apos; omvangen,
+    <l>Schelms smeken om hun vrijheid weer te&apos; erlangen,
+</lg></lg>
+
+
+
+
+
+<pb id=pb73 n=73 facs="f:079">
+<div1 id=v2.25 n=XXV>
+<head type=label>XXV.</head>
+
+<head>Japans Toneel.</head>
+
+
+<lg><lg>
+    <l>Heil wi omvlaagd eerst door de warrel-stromen
+    <l>Van &apos;t Eind der Eew, zich zelf word, dan&mdash;z&apos;ontvlucht&mdash;
+    <l>In vaster koers van niwer Tijd gekomen,
+    <l>Maar voor hun aandrang langer niet beducht,
+    <l>Als in een hoger wereld opgenomen,
+    <l>Ze schouwt als wolken jagend door de lucht
+    <l>Om Gea&apos;s<note n=1 id=n2.25.1>Gea: de Aarde.</note> Kogel of met stadig stomen
+    <l>Van kraters hij zijn eter-vaart doorzucht.
+</lg>
+
+<lg>
+    <l>Zo&mdash;rustig als in een japans teater,
+    <l>Waar men &apos;t toneel naar &apos;t aantal akten deelt
+    <l>In sektors en doet drajen op een schijf,
+    <l>Zi &apos;k als van Mars tablo&apos;s te land, te water
+    <l>Om d&apos;Aard-Bol wentelen bij elk niew bedrijf,
+    <l>Waarin de Mensheid haar Histori speelt.
+</lg></lg>
+
+
+
+
+
+<pb id=pb74 n=74 facs="f:080">
+<div1 id=v2.26 n=XXVI>
+<head type=label>XXVI.</head>
+
+<head>Naar de post.</head>
+
+
+<lg><lg>
+    <l>Een moesmé tript, één arm uit paarse mouw
+    <l>Als stengel rijzend van een lotusblad,
+    <l>Waarop de hand, die &apos;t zonnescherm omvat,
+    <l>Uitvlagt als bloem, naar &apos;t postkantoor en nauw
+    <l>Perst zij het mondje saam in spanning: wat
+    <l>Wel &apos;t antwoord is, nu z&apos;als verliefde vrouw
+    <l>Een brief penseelde en met vouw op vouw
+    <l>Dien maakte tot heel klein-mystike schat.<note n=1>De Japanners vouwden vroeger&mdash;misschien nog&mdash;hun briven heel klein op in de enveloppen.</note>
+</lg>
+
+<lg>
+    <l>Dan droomt ze, hoe fluks een vuurspuwend beest,
+    <l>Dat trouw steeds trugkeert, &apos;t Zonneland doorgiert,
+    <l>&apos;t Epistel naar haar blanken minnaar draagt.
+</lg>
+
+<lg>
+    <l>En als hij later &apos;t in ver land herleest,
+    <l>Schijnt de chrysanth, die den post-zegel siert
+    <l>Herinnerings-bloem in storm vandaar vervlaagd.
+</lg></lg>
+
+
+
+
+<pb id=pb75 n=75 facs="f:081">
+<div1 id=v2.27 n=XXVII>
+<head type=label>XXVII.</head>
+
+<head>Satsoema-Vazen.<note n=1>Satsoema, dit soort porselein is wit, met goud voornamelijk gekleurd.</note></head>
+
+
+<lg>
+    <l>In rijk vertrek, waarbuiten vlokken dalen
+    <l>In wintergrijs, staan zwijgend bij &apos;t rom-rommen
+    <l>Van haardvuur, vazen met hun tuit als schalen,
+    <l>Di stilte heffen, van oud goud omglommen
+    <l>En &apos;t blank pors&apos;lein, beöuweld met ovalen,
+    <l>Vleeskleurig, &apos;t zwart besnord gezicht van drommen,
+    <l>Di om een Shogoen,<note n=2>Shogoen: stadhouder, plaatsvervanger van den keizer. Deze hadden sinds de XVIIe Eew, sinds het optreden van den stadhouder Hiéyazoe, de macht in handen, totdat de adel, di van hen hoe langer hoe meer afhankelik werd, aan den tegenwoordigen Mi-Kado zijn oorspronkelike macht teruggaf en met deze en de japanse bourgeoizi het Rijk in alle opzichten modernizeerde.</note> breed in hofdracht, pralen
+    <l>En naar wier voorhoofd zich yebossi&apos;s<note n=3>Yebossi&apos;s: zwart verlakte, smalle silinderhoeden, naar voren omgebogen en met banden gedragen om de kin, blijkbaar gemaakt om den haardos, op het midden van den schedel naar voren vallend, te omvatten. Men ziet dit hoofddeksel zeer vaak verguld afgebeeld op satsoema-porselein.</note> krommen
+    <l>Van goud.&mdash;
+                <l rend="hemistich(^)">En wijken weer de kille stromen,
+    <l>Di eerst door reten van de vensters breedden,
+    <l>Dan schijnt van &apos;t goud, dat ruig hangt neergegleden
+    <l>En van hun randen hitte uit te stomen,
+    <l>Alsof z&apos;er weer de zonnegloed verbreiden,
+    <l>Die hen bedroop in vroeger lente-tijden.
+</lg>
+
+
+
+
+<pb id=pb76 n=76 facs="f:082">
+<div1 id=v2.28 n=XXVIII>
+<head type=label>XXVIII.</head>
+
+<head>Begrafenis.</head>
+
+
+<lg>
+    <l>Twe vossenkoppen rijzen op gedein
+    <l>Van standaards, als giraffen voor de baar,
+    <l>Waarop een dode in huisje, blank pors&apos;lein
+    <l>Als in een toro<note n=1>Toro: stenen of bronzen lantaren.</note> zit; aan &apos;t staken-paar
+    <l>Blankt een lampion en een papier-blad; daar
+    <l>Gaan bonzen voor tot opening van den trein;
+    <l>Een man volgt met een lichtje&apos; of zo in fijn,
+    <l>Groen gaas de ziel &apos;t lijk nog verzelt; na het gestaar
+    <l>Der vossen, na de dragers gaat gebogen
+    <l>&mdash;De vrouwen blank door sluiers overtogen,&mdash;
+    <l>Een reeks verwanten.
+                        <l rend="hemistich(^)">&apos;t Sterfhuis staat nu leeg.
+    <l>En als gevallen door één woesten veeg
+    <l>Van stormwind liggen schermen neer, dooreen,<note n=2>Het door elkaar werpen van de kamerschermen is een japans teken van rouw.</note>
+    <l>Als oosterlingen, kruipend in geween.
+</lg>
+
+
+
+
+<pb id=pb77 n=77 facs="f:083">
+<div1 id=v2.29 n=XXIX>
+<head type=label>XXIX.</head>
+
+<head>De Berg van Nikko.<note n=1>De berg van Nikko is de begraafplaats der japanse keizers.</note></head>
+
+
+<lg><lg>
+    <l>Op berg, waar door rouwgroen der seder-kronen
+    <l>De vlinders als uit vrees zijn truggedrongen
+    <l>Waar bronzig stond na stond heen-dreunt van gongen,
+    <l>Daar sluim&apos;ren Dzjimmoe-Tenno&apos;s zonne-zonen
+    <l>In tempels huivend&mdash;als uit licht-regionen&mdash;
+    <l>Uit gouden muren, of di afglans vongen
+    <l>Van hen, di &apos;t Volk als steeds onzichtb&apos;ren<note n=2>Voor keizer Moetsoe-Hito zijn rijk hervormde, waren de vorsten steeds onzichtbaar, slechts de adel mocht soms hun geheiligde persoon aanschouwen.</note> dwongen
+    <l>Tot eerbied en &apos;t nu nog dien afschijn tonen.
+</lg>
+
+<lg>
+    <l>De rosse stammen, velen honderd jaren
+    <l>Staan dicht bijeen als wachters en omringen
+    <l>Dien naglans van verdwenen Majesteit.
+    <l>Door &apos;t somber loof hoort men de winden varen
+    <l>En in dat zwijgen als de golven zingen
+    <l>Verdruisend in een Zee van Ewigheid.
+</lg></lg>
+
+
+
+
+<pb id=pb78 n=78 facs="f:084">
+<div1 id=v2.30 n=XXX>
+<head type=label>XXX.</head>
+
+<head>Staten-Generaal.</head>
+
+
+<lg><lg>
+    <l>Door forse zwaaj van d&apos;Aard-Bol aangedragen
+    <l>Uit donkeren vormen-dompel rekt en richt
+    <l>Zich land na land nu naar het niwe Licht,
+    <l>Dat boven de Bastille uitgeslagen,
+    <l>Juist honderd jaar daarna door &apos;t wolk-geschicht,
+    <l>Van Dzji-Pon-Koewé&apos;s kim roosde&apos; en welks stagen
+    <l>Triomftocht reeds Tschoeng-Koewé&apos;s<note n=1>Tschoeng-Koewé: Rijk van het Midden, China<corr sic="&lsquo;">.</corr></note> Volkeren zagen,
+    <l>Welks kust nu in dien gloed gewenteld ligt.
+</lg>
+
+<lg>
+    <l>En als tans in Nippon bij &apos;t openingsfeest
+    <l>Van &apos;t Parlement het Volk het troon-woord leest
+    <l>In rose krant<note n=2>Zulk een krant is daar de demokratise Yorodzoe<corr sic=.>,</corr> gedrukt op rose papier.</note> op straat, in tram of trein
+    <l>En menig hoofd gloejt in den wederschijn
+    <l>Van zulk een blad, dan lijkt het of het rood
+    <l>Dier morgen-pracht er elk gelaat bevloot.
+</lg></lg>
+
+
+
+
+<pb id=pb79 n=79 facs="f:085">
+<div1 id=v2.31 n=XXXI>
+<head type=label>XXXI.</head>
+
+<head>Wereld-Drang.</head>
+
+
+<lg><lg>
+    <l>Ik voel den trek naar verre, verre landen
+    <l>Der zeelui, di met den kompas-naald vrij
+    <l>Alom vier Ewen reeds de zeilen spanden,
+    <l>Van den reporter, di in reiskleedij
+    <l>Te paard de troepen volgt naar alle stranden.
+    <l>Zo voer &apos;k mijn dichtros d&apos;eskadrons terzij,
+    <l>Waarmee &apos;k&mdash;trots roof en moord, bij gloed van branden,&mdash;
+    <l>De wording schouw der niwe Maatschappij.
+</lg>
+
+<lg>
+    <l>En waar zij andere volken overmanden:
+    <l>Op Cuba en in China, de Transvaal,
+    <l>Zi &apos;k toch, hoe na den Gier van &apos;t Kapitaal,
+    <l>Di breed-uit voor Japs, Yankees, Britten streeft,
+    <l>De Duif hoog over bajonetten zweeft.&mdash;
+</lg>
+
+<lg>
+    <l>Ik voel den trek naar verre, verre landen....
+</lg></lg>
+
+
+
+
+<pb id=pb80 n=80 facs="f:086">
+<div1 id=v2.32 n=XXXII>
+<head type=label>XXXII.</head>
+
+<head>Scheidens-Uur.</head>
+
+
+<lg><lg>
+    <l>Nog eens wil &apos;k als de luchte vlinder zwiren
+    <l>Om rode klokken der kamelia-bomen,<note n=1>De kamelia&apos;s groejen in Japan niet <pb id=pb92 n=92 facs="f:098">aan struiken, maar als rode klokken aan bomen, zelfs van tien meter hoog.</note>
+    <l>Wier kelken met een blos van vlammen tiren
+    <l>Of al de zefir-zwoelten di ontstromen,
+</lg>
+
+<lg>
+    <l>Nog eens den dans van ranke geisha&apos;s dromen,
+    <l>Wien wajers als ontploojde sterren siren,
+    <l>Waaraan zij, d&apos;aard bestengelend, neergekomen,
+    <l>Plots weer druk flapperend het azuur in giren,
+</lg>
+
+<lg>
+    <l>Nog eens naar Boeddha&apos;s flonkend aanschijn staren,
+    <l>Kalm schouwend tegen d&apos;eigen oogen-schermen
+    <l>Gelijk de Zon ze luikt bij &apos;t nedervaren,
+    <l>Als d&apos;avondvonken reeds om &apos;t zenit zwermen,
+</lg>
+
+<lg>
+    <l>En aan Nippon nog enkele strofen wijden,
+    <l>Hoe ook het uur reeds dreigt van &apos;t eind&apos;lik scheiden.
+</lg></lg>
+
+
+
+
+<pb id=pb81 n=81 facs="f:087">
+<div1 id=v2.33 n=XXXIII>
+<head type=label>XXXIII.</head>
+
+<head>Licht.</head>
+
+
+<lg>
+    <l>Hier&mdash;toen in &apos;t Westen nog de dichters zegen
+    <l>Voor &apos;t Kruis, hun heir in wolken wirook zonk,
+    <l>Hun in de Katedraal weer &apos;t hoofd genegen,
+    <l>Van het Geloof slechts arm&apos;lik kaarsgloed blonk,&mdash;
+    <l>Sloeg uit mijn borst een brand het Oosten tegen
+    <l>Als bloem van vuur, di open door den dronk
+    <l>Van zon met oog-, en hand-kelk&mdash;in een regen
+    <l>Van goud geheven&mdash;al zijn vlammen schonk
+    <l>Aan &apos;t Licht der Wetenschap, dat uitgewajerd,
+    <l>Geweldig als in Japans oorlogsvlag,
+    <l>Weer joeg door den eind-eewsen nevel-bajerd,
+    <l>Waar &apos;k de Chrysanth,<note n=1>De vlag van het keizerlik Huis van Japan is violet met een witte Chryzant, heraldiek gestileerd met zestien bladen.</note> wit in den niwen dag,
+    <l>Door &apos;t wapperend, vorstelik Violet omlajerd,
+    <l>Als &apos;t Rad van den Vooruitgang stralen zag.<note>De oorlogsvlag is wit met een hoogrode stralende zon en violetten rand, de naatsionale wit met een straalloze, hoogrode zonbal.</note>
+</lg>
+
+
+
+
+<pb id=pb82 n=82 facs="f:088">
+<div1 id=v2.34 n=XXXIV>
+<head type=label>XXXIV.</head>
+
+<head>Rijk van de Zon....</head>
+
+
+<lg><lg>
+    <l>Rijk van de Zon met huizen als waranden,&mdash;
+    <l>Waarheen de kroon der palmen luisterend zinkt,
+    <l>Als van &apos;t balkon getonk der semsin<note n=1>Semsin: samisen.</note> dringt
+    <l>Door gloejend-blauw gesnoerde foedzji-wanden,
+</lg>
+
+<lg>
+    <l>Waar om de parasols in moesmé&apos;s handen,
+    <l>De vlinder als om aardse zonnen zwingt,
+    <l>Waar &apos;t schijnt of de vulkaan slechts wirook slingt
+    <l>Om in d&apos;azuren hemel-zaal te branden,
+</lg>
+
+<lg>
+    <l>En waar de geisha luwten, bloem-aroom
+    <l>Wuift naar den zwier van liefde&apos;s wajertale,&mdash;
+    <l>&apos;t Is of licht heel Uw leven zwind, een droom,
+    <l>Langs luchtweg, dien kapellen spoorloos dwalen...
+</lg>
+
+<lg>
+    <l>Wi naar Uw kust van Altijd-Lente vaart,
+    <l>Vind in Japan het Paradijs op aard!
+</lg></lg>
+
+
+
+
+<pb id=pb83 n=83 facs="f:089">
+<div1 id=v2.35 n=XXXV>
+<head type=label>XXXV.</head>
+
+<head>Betere Tijden.</head>
+
+
+<lg><lg>
+    <l>&apos;k Wist, toen &apos;k derwaarts de dichterwiken strekte
+    <l>Om op te gaan in zoete zonnegloed
+    <l>Als vogels, di hij op de torii&apos;s wekte,
+    <l>Als vissen, zilverend in bevonkten vloed,
+</lg>
+
+<lg>
+    <l>Hoe ginds ook de fabrieks-walm &apos;t zwerk bedekte,
+    <l>De Bourgeoizi van koorts om goud doorwoed,
+    <l>Den arbeid&mdash;ook van vrouwen, kinderen&mdash;rekte,
+    <l>Di ze&apos; in masjine-holen kwijnen doet.
+</lg>
+
+<lg>
+    <l>Maar niet voor hen slechts, di van jachten &apos;t schouwen,
+    <l>Deed mij de Muze&apos; een beter wereld blauwen
+    <l>Nog schoner dan van Oud-Japan ons heugt,
+    <l>Doch waar ook &apos;t Volk na politike rechten
+    <l>Zich financiële vrijheid zal bevechten,
+    <l>De wajers schud hoog-uit van levensvreugd.
+</lg></lg>
+
+
+
+
+<pb id=pb84 n=84 facs="f:090">
+<div1 id=v2.36 n=XXXVI>
+<head type=label>XXXVI.</head>
+
+<head>Wedergeboorte.</head>
+
+
+<lg><lg>
+    <l>Hier ben &apos;k Europa&apos;s schiereiland<note n=1>Europa is geen werelddeel dan alleen met Azië te zamen, gelijk o. m. reeds door Von Humboldt werd opgemerkt. De beste naam daarvoor acht ik er een, afgeleid juist van de vroegere, voornaamste grensscheiding, van den Oeral, nl. Oeralië en voor geheel Zuid-Amerika: Columbia.</note> ontweken,
+    <l>Den woesten strijd op uitgeputten grond,
+    <l>In Jong-Japan, in nauw ontgonnen streken,
+    <l>Toen &apos;k ginds nog vals-modern reaksi vond,
+    <l>Hier lang reeds Babel&apos;s Cyclen-Reeks<note n=2><p>De Japanners telden den tijd naar het stelsel der cyclen van vijfmaal twaalf jaar, elk jaar genaamd naar een der Tekenen van den Direnriem, dat ze aan de Chinezen hebben ontleend, die het gemeen hadden of kregen met de Babyloniërs, toen de eersten als de Po-Sin (de Honderd Geslachten) van uit Mesopotamië trekkend, China veroverden, maar:
+
+<p>1<hi rend=sup>o</hi>. Hun jaartelling, nu in den 75en cyclus, ruim 4500 jaar, is in zoover al verouderd, dat ze niet meer rekenen van af een mytologies begin der wereld, doch met getallen van geologen en darwinianen.
+
+<p>2<hi rend=sup>o</hi>. Hun vroeger Niewjaar is van half Februari of Maart op 1 Januari gesteld.
+
+<p>3<hi rend=sup>o</hi>. In plaats van een officiële rustdag om de vijf dagen,&mdash;niet voor het volk, dat als <hi>vaste</hi> rustdag alléén <pb id=pb93 n=93 facs="f:099">Niewjaar kende&mdash;hebben zij nu den christeliken Zondag om de zes dagen.
+
+<p>4<hi rend=sup>o</hi>. Sinds 1873 vervangt de gregoriaanse kalender de babylonise.
+
+<p>5<hi rend=sup>o</hi>. Zij hebben het stelsel aanvaard van den internaatsionalen spoorweg-zonetijd, waarop weldra logies de invoering ener pannaatsionale jaartelling, het begin van een niwe Era volgen moet.
+
+<p>6<hi rend=sup>o</hi>. Zij weten als wij, dat reeds in 1792 de Fransen één jaartelling wilden brengen aan alle Volken der Aarde, sinds Jaar 1 van de Republiek.</note> bleef steken,
+    <l>En &apos;t Iroha<note>Iroha, het japanse silben-schrift, overgang van woord- naar het letterschrift.</note> voor &apos;t telegraaf-srift zwond,
+    <l>Waar &apos;t Gele Ras zo toonde plots te breken
+    <l>Met alles, wat het aan &apos;t Voorheen nog bond.
+</lg>
+
+<lg>
+    <l>Hier zag &apos;k den hemel d&apos;eerste stralen schoren
+    <l>Der Zon van een Beschaving zonder weerga,
+    <l>Hoe, wáár men ook in &apos;t puin der ouderen woelt.
+    <l>&apos;k Werd in dit Eden, di Natuur herboren
+    <l>En &apos;k heb bij &apos;t naderen ener niwe Era
+    <l>Me&apos; er weer een oermens èn een god gevoeld.
+</lg></lg>
+
+
+
+
+<pb id=pb85 n=85 facs="f:091">
+<div1 id=v2.37 n=XXXVII>
+<head type=label>XXXVII.</head>
+
+<head>Nirwana.</head>
+
+
+<lg>
+    <l>Eens&mdash;naar de mythen van dit Rijk gewagen&mdash;
+    <l>Ontlook een Lotus in de hemelkringen,
+    <l>Waarvan de reuzenbladen, uitgeslagen,
+    <l>De Aarde&mdash;daarin sluimerend nog&mdash;omvingen
+    <l>Als luchtboog.<note n=1>Japanse Genezis.</note> &apos;t Is of nu reeds bij het dagen
+    <l>Zo&apos;n Bloem weer vaamt vaneen, welks kartelingen
+    <l>Een jonger Globe&mdash;in haar schoot voldragen&mdash;
+    <l>Langs hare kim met rozengloed omringen
+    <l>En dra Zij zelf in de Voleinding troont,
+    <l>Waarin eens Boeddha&apos;s Werelds Kelk bezweefde,<note n=2>Simbolies: de wereld weldra doordrongen van Boeddha&apos;s leer in den modernen vorm van teozofi verniewt zich daardoor en heeft dan di middeneewse godsdienst niet meer nodig, maar vraagt reeds om een hogere dan deze, het Christendom, den Islam, de Voorvaderen-Verering der Chinezen en Japanners en het Judaïsme. Het Nirwana, de Voleinding, de Rust, waar de geslachten met Gautama Boeddha ten voorbeeld naar streefden, word&mdash;zoover het mogelik is&mdash;in de niwe Era bereikt en daarmee vervalt het Boeddhisme zelf dat er heen voeren moest, tegelijk met de genoemde godsdiensten om plaats te maken voor het Messianisme, den Culte de la Raison, den Godsdienst der Rede.</note>
+    <l>&apos;t Nirwana spoedig ook mijn strijd bekroont,
+    <l>Waarin ik haar herschepping medeleefde.
+    <l>Dan wil &apos;k in Rust, waar &apos;k star nu heen blijf stijgen,
+    <l>Hoog Gea&apos;s Uni-Adelaar kampwaars tijgen.
+</lg>
+
+
+
+
+<pb id=pb86 n=86 facs="f:092">
+<div1 id=v2.38 n=XXXVIII>
+<head type=label>XXXVIII.</head>
+
+<head>Het Oude Lied.</head>
+
+
+<lg><lg>
+    <l>&apos;k Word in droom door harmonika-orgeling gestoord,
+    <l>Waar »Wilhelma« in spreekt »van Nassouwe.«
+    <l>Zo klein-vroom&mdash;en toch groot&mdash;psalmt het zeevolk van boord
+    <l>Tot den Heer als: »schilt ende betrouwen.«
+    <l>Weer wenkt westwaarts de Drikleur, &apos;t Oranje mij voort,
+    <l>Waar langs Amsterdam d&apos;IJ-wateren stouwen,
+    <l>Waar door wolkwit en grijs toch het zonnetje gloort
+    <l>Over Hollands wijd groenende gouwen.
+</lg>
+
+<lg>
+    <l>Neen, in &apos;t Rijk van de Rijzende Zon, de Chrysanth
+    <l>Zal mij langer geen geisha meer pajen,
+    <l>O, ik wou nu wel schouwen van ver uit het want
+    <l>Naar het land, waar de tulpvlammen lajen,
+    <l>In de velden bij &apos;t blond starend duin, aan het strand...
+    <l>Naar het land, waar de molentjes drajen!
+</lg></lg>
+
+
+
+
+<pb id=pb87 n=87 facs="f:093">
+<div1 id=v2.39 n=XXXIX>
+<head type=label>XXXIX.</head>
+
+<head>Sayonara.<note n=1>Sayonara: Vaarwel!</note></head>
+
+
+<lg>
+    <l>De laatste rozige&apos; eiland-toppen stuiven
+    <l>Reeds weg in witte wazen, di aantijgen
+    <l>Van &apos;t Oosten, waar straalloos de Zon golf-kuiven
+    <l>Voor zilveren kim koolrood berimpt.&mdash;Nog nijgen
+    <l>&mdash;&apos;t Kleed eng saamvattend&mdash;geisha&apos;s tot mij, schuiven
+    <l>De lucht betrippend nader: lachend stijgen
+    <l>Zij achter &apos;t zeil van &apos;t witte schip en wuiven
+    <l>Er wind in met hun wajers. Maar plots zijgen
+    <l>Zij in &apos;t azuur bijeen met droef geöog,
+    <l>Waar &apos;t zog&mdash;hun loop te snel&mdash;de kiel navloog.
+    <l>Tans: arme moesmé&apos;s, hoe met lonken, wenden
+    <l>Gij m&apos;ook wilt houden in Uw tooverban,
+    <l>Kan &apos;k slechts van ver U nog wat kussen zenden
+    <l>Als laatst: »Vaarwel!«&mdash;»Tot weerziens!«&mdash;aan... Japan!
+</lg>
+
+
+<p rend="align(right)">Amsterdam.
+<lb>1898&ndash;1902.
+
+
+
+
+<pb id=pb38 n=38 facs="f:044">
+</body>
+<back id=backmatter>
+<div1 id=toelichtingen type=Notes>
+<head>TOELICHTINGEN.</head>
+
+
+<p>Verschillende verklaringen zijn onnodig voor de meer beschaafden, doch daar ik dit werk ook toegankelijk wilde maken voor di arbeiders, welke reeds onze literatuur beginnen te kennen, is daardoor het aantal noten groter dan voor de ontwikkelden uit de burgerklasse nodig was.
+
+<p>Voor mijn spelling, radikaler dan de Kollewijnse, verzoek ik de welwillendheid der lezeressen en lezers, daar ik zo doortastend mogelik di wens te verniwen tot behoud en verbreiding van onze taal in Zuid-Afrika en elders. De internaatsionale woorden srijf ik zoveel mogelik leesbaar voor vreemdelingen, daar deze o.m. de materi vormen van de Esperanto, een wereldtaal-stelsel, dat veel goeds bevat, al beschouw ik dit niet als de Wereldtaal van de toekomst. Soms heb ik opzettelik ter wille van de staatsi een woord ouderwets gespeld, b.v. in <ref target="v1.21">XXI</ref>: de Bloem »Chrysanth.«
+
+
+<divGen type=footnotesBody>
+
+
+</div1>
+
+
+<divGen type=Colophon>
+
+
+</back>
+</text>
+</TEI.2>
+
+<!--
+
+CHECKLIST (X = done; / = not applicable)
+
+Initial cleanup
+
+[ ] Check all pb-tags, and join lines
+[ ] Move all footnotes in-line
+[ ] Tag headers
+[X] Fix all [** Proofer comments]
+[ ] Start all paragraphs with the p-tag
+[ ] Change b, sc, g tags to hi tags with correct attributes.
+[ ] Change tb tags to milestone tags.
+[ ] Fix multiple spaces in a row
+[ ] Verify all paragraphs start with p-tag, also those starting with a tag.
+
+TEI header
+
+[ ] Add TEI header.
+[ ] Fill in details in TEI header
+[ ] Verify Author dates and add to TEI header.
+[ ] Document on-line scan sources.
+[ ] Fill in description in noteStmt.
+[ ] Fill in keywords / Subjects
+[ ] Add auto-generated colophon divGen tag.
+[ ] Fill in reference to LOC record (https://catalog.loc.gov/).
+[ ] Fill in reference to OpenLibrary record (https://openlibrary.org).
+[ ] Fill in reference to WorldCat record (source and work) (https://www.worldcat.org).
+[ ] Generate unique epub-id. (https://www.guidgenerator.com/)
+
+Verse
+
+[ ] Tag all verse.
+[ ] Apply proper indentation: rend="indent(2)"
+
+Lists
+
+[ ] Tag all lists.
+
+Tables
+
+[ ] Format tables
+[ ] Apply ditto-tags.
+
+Table of Contents
+
+[ ] Format table(s) of contents
+[ ] Link entries in table of contents
+[ ] Verify each link
+[ ] Compare with generated table of contents
+
+Images
+
+[ ] Include all illustrations
+[ ] Verify positioning of images makes sense.
+
+Spelling
+
+[ ] Verify generated wordlist
+[ ] Tag language usage
+
+Tools
+
+[ ] Verify Gutcheck
+[ ] Verify jeebees
+
+Miscellany
+
+[ ] Check for [Greek: ...] notation
+[ ] Curlify quotes
+[ ] Check for wrong quotes
+[ ] Disambiguate single quotes, apostrophes, and primes.
+[ ] Unwrap lines
+[ ] Check for lines not unwrapped
+[ ] Verify sequence of page-numbers
+[ ] Handle fractions, such as 1/2.
+[ ] Converted all fragments in uppercase to mixed case.
+
+Text Version
+
+[ ] Remove FIGURE notations
+[ ] Verify empty lines between chapter headings
+[ ] Verify empty lines around poetry and lists
+[ ] Center poetry
+[ ] Format title page
+[ ] Remove Ads
+[ ] Format Tables
+[ ] Verify Greek and other transliterations
+
+Additional Checks and Edits (Add as needed for a specific book)
+
+[ ] ....
+
+Posting
+
+[ ] Make sure dp-post@pgdp.net is cc-ed on upload
+
+Post-Posting
+
+[ ] Update status to 1.0 (i.e. Posted).
+[ ] Include PG number and posting date in metadata
+
+-->
